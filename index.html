@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+<body>
+    <header class="header" id="name-lastname-add">
+    <div class="container">
+        <div class="header__top">
+            <a href="tel:88006001123" class="header__number">8 (800) 600-11-23</a>
+            <button class="header__burger">
+                ☰
+            </button>
+            <button class="header__close header__close_active">
+                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.50009 6.34616L10.1539 11L11.0001 10.1539L6.34624 5.50001L11 0.846244L10.1539 8.99634e-05L5.50009 4.65385L0.846238 0L8.35359e-05 0.846154L4.65394 5.50001L0 10.1539L0.846154 11.0001L5.50009 6.34616Z" fill="black"/>
+                </svg>                    
+            </button>
+            <a href="#" class="header__logo">
+                <svg width="194" height="24" viewBox="0 0 194 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_5_3835)">
+                    <path d="M14.5962 0.191895C6.83618 0.191895 0.184753 3.07189 0.184753 11.9999C0.184753 18.9119 3.78761 23.8079 14.5962 23.8079C22.1714 23.8079 29.0076 20.7359 29.0076 11.9999C29.0076 5.18389 25.1276 0.191895 14.5962 0.191895ZM14.5962 18.8159C11.3628 18.8159 9.42285 16.6079 9.42285 11.9999C9.42285 7.29589 11.64 5.18389 14.5962 5.18389C17.5524 5.18389 19.7695 7.10389 19.7695 11.9999C19.7695 16.7999 17.7371 18.8159 14.5962 18.8159Z" fill="#161616"/>
+                    <path d="M42.9572 0.768066H31.4095V23.1361H43.2343C52.9343 23.1361 58.9391 20.9281 58.9391 12.0001C59.0315 1.82407 50.8095 0.768066 42.9572 0.768066ZM43.1419 18.2401H40.4629V5.76007H43.1419C47.1143 5.76007 49.6086 7.39207 49.6086 12.0001C49.701 16.5121 47.2991 18.2401 43.1419 18.2401Z" fill="#161616"/>
+                    <path d="M77.7847 0.768066L72.7962 10.4641L67.8076 0.768066H57.1838L67.6228 16.5121V23.1361H76.7685V16.5121L87.2076 0.768066H77.7847Z" fill="#161616"/>
+                    <path d="M105.222 10.1759L99.4943 8.7359C97.1847 8.1599 95.9838 7.7759 95.9838 6.3359C95.9838 4.99189 97.2771 4.31989 99.2171 4.31989C101.342 4.31989 102.543 4.99189 102.728 7.39189H111.596C111.227 2.68789 108.178 0.191895 99.2171 0.191895C91.0876 0.191895 86.5609 3.07189 86.5609 7.39189C86.5609 10.9439 89.0552 12.0959 93.12 13.2479L99.3095 14.8799C101.896 15.5519 102.728 16.3199 102.728 17.2799C102.728 19.1999 100.88 19.5839 99.0324 19.5839C96.5381 19.5839 95.4295 18.3359 95.3371 16.1279H86.1914C86.1914 20.2559 88.1314 23.7119 99.0324 23.7119C108.825 23.7119 112.15 20.6399 112.15 16.4159C112.335 12.3839 109.379 11.1359 105.222 10.1759Z" fill="#161616"/>
+                    <path d="M132.382 10.1759L126.654 8.7359C124.252 8.1599 123.144 7.7759 123.144 6.3359C123.144 4.99189 124.437 4.31989 126.377 4.31989C128.502 4.31989 129.703 4.99189 129.888 7.39189H138.756C138.387 2.68789 135.338 0.191895 126.377 0.191895C118.248 0.191895 113.721 3.07189 113.721 7.39189C113.721 10.9439 116.215 12.0959 120.28 13.2479L126.469 14.8799C129.056 15.5519 129.888 16.3199 129.888 17.2799C129.888 19.1999 128.04 19.5839 126.192 19.5839C123.698 19.5839 122.589 18.3359 122.497 16.1279H113.351C113.351 20.2559 115.291 23.7119 126.192 23.7119C135.985 23.7119 139.31 20.6399 139.31 16.4159C139.495 12.3839 136.539 11.1359 132.382 10.1759Z" fill="#161616"/>
+                    <path d="M150.95 14.2081H161.851V9.60007H150.95V5.47207H162.59V0.768066H141.99V23.1361H162.683V18.5281H150.95V14.2081Z" fill="#161616"/>
+                    <g clip-path="url(#clip1_5_3835)">
+                    <path d="M121.09 -188C90.0205 -188 59.6488 -178.787 33.8155 -161.526C7.98217 -144.264 -12.1525 -119.73 -24.0422 -91.0257C-35.932 -62.3213 -39.0429 -30.7357 -32.9815 -0.26326C-26.9202 30.2092 -11.9588 58.2 10.0106 80.1694C31.98 102.139 59.9708 117.1 90.4433 123.162C120.916 129.223 152.501 126.112 181.206 114.222C209.91 102.332 234.444 82.1978 251.706 56.3645C268.967 30.5312 278.18 0.159464 278.18 -30.91C278.177 -72.572 261.626 -112.527 232.166 -141.986C202.707 -171.446 162.752 -187.997 121.09 -188V-188Z" stroke="#161616" stroke-width="32" stroke-miterlimit="10"/>
+                    </g>
+                    <path d="M179.496 10.4641L174.6 0.768066H163.976L174.415 16.5121V23.1361H183.469V16.5121L194 0.768066H184.485L179.496 10.4641Z" fill="#161616"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_5_3835">
+                    <rect width="194" height="24" fill="white"/>
+                    </clipPath>
+                    <clipPath id="clip1_5_3835">
+                    <rect width="512" height="512" fill="white" transform="translate(-100 -252)"/>
+                    </clipPath>
+                    </defs>
+                </svg>                    
+            </a>
+            <ul>
+                <li>
+                    <a href="#">
+                        <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.8011 21.8271L17.2105 16.2377C18.7101 14.514 19.6181 12.265 19.6181 9.80687C19.6181 4.39601 15.216 0 9.80905 0C4.39698 0 0 4.40111 0 9.80687C0 15.2126 4.40208 19.6137 9.80905 19.6137C12.2677 19.6137 14.5172 18.706 16.2413 17.2067L21.8319 22.796C21.9645 22.9286 22.143 23 22.3165 23C22.4899 23 22.6684 22.9337 22.8011 22.796C23.0663 22.5308 23.0663 22.0922 22.8011 21.8271ZM1.37214 9.80687C1.37214 5.15588 5.15702 1.37694 9.80395 1.37694C14.456 1.37694 18.2358 5.16098 18.2358 9.80687C18.2358 14.4528 14.456 18.2419 9.80395 18.2419C5.15702 18.2419 1.37214 14.4579 1.37214 9.80687Z" fill="black"/>
+                        </svg>                        
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="open-cart">
+                        <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.6998 5.9998C4.6998 3.73906 6.94777 1.6998 9.9998 1.6998C13.0518 1.6998 15.2998 3.73906 15.2998 5.9998H16.6998C16.6998 2.7377 13.5752 0.299805 9.9998 0.299805C6.42442 0.299805 3.2998 2.7377 3.2998 5.9998H4.6998ZM1.4 22.6V7.4H18.6V22.6H1.4ZM0 7C0 6.44772 0.447715 6 1 6H19C19.5523 6 20 6.44772 20 7V23C20 23.5523 19.5523 24 19 24H1C0.447716 24 0 23.5523 0 23V7Z" fill="black"/>
+                        </svg>                            
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg width="20" height="23" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.6 6C14.6 8.54051 12.5405 10.6 10 10.6C7.45949 10.6 5.4 8.54051 5.4 6C5.4 3.45949 7.45949 1.4 10 1.4C12.5405 1.4 14.6 3.45949 14.6 6ZM16 6C16 9.31371 13.3137 12 10 12C6.68629 12 4 9.31371 4 6C4 2.68629 6.68629 0 10 0C13.3137 0 16 2.68629 16 6ZM1.4 21C1.4 17.9072 3.90721 15.4 7 15.4H13C16.0928 15.4 18.6 17.9072 18.6 21V21.6H1.4V21ZM0 21C0 17.134 3.13401 14 7 14H13C16.866 14 20 17.134 20 21V21.6V23H18.6H1.4H0V21.6V21Z" fill="black"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="header__bottom">
+            <ul>
+                <li><a href="#">Бренды</a></li>
+                <li><a href="#">Новинки</a></li>
+                <li><a href="#">Мужское</a></li>
+                <li><a href="#">Женское</a></li>
+                <li><a href="#">Обувь</a></li>
+                <li><a href="#">Уход</a></li>
+                <li><a href="#">Life Style</a></li>
+                <li><a href="#">Журнал</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+    <main>
+        <section class="personal">
+            <div class="container">
+                <div class="personal__wrapper">
+                    <div class="personal__left">
+                        <form action="#" id="personal-data">
+                            <div class="personal__title">Имя и фамилия</div>
+                            <div class="personal__first-last">
+                                <div class="personal__input" id="phone-add" data-block="phonebig1200">
+                                    <label for="name">Имя</label>
+                                    <div>
+                                        <input type="text" id="name" name="name" placeholder="Имя" class=" personal-data-name" data-input="clear">
+                                        <svg width="17" class="personal__input-success" hidden height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.0041 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.0041 10.6315Z" fill="#20FF5E"/>
+                                        </svg>                                        
+                                        <svg width="16" class="personal__input-reset" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.8186 12.7614L8.04743 8.99024L4.27614 12.7615L3.33333 11.8187L7.10462 8.04743L3.33333 4.27614L4.27614 3.33333L8.04743 7.10462L11.8186 3.33343L12.7614 4.27624L8.99024 8.04743L12.7614 11.8186L11.8186 12.7614Z" fill="#E5E5E5"/>
+                                        </svg>    
+                                        <p hidden>Некорректное имя</p>                                    
+                                    </div>
+                                </div>
+                                <div class="personal__input">
+                                    <label for="lastname">Фамилия</label>
+                                    <div>
+                                        <input type="text" id="lastname" name="lastname" placeholder="Фамилия" class=" personal-data-lastname" data-input="clear">
+                                        <svg width="17" class="personal__input-success" hidden height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.0041 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.0041 10.6315Z" fill="#20FF5E"/>
+                                        </svg>                                        
+                                        <svg width="16" class="personal__input-reset" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.8186 12.7614L8.04743 8.99024L4.27614 12.7615L3.33333 11.8187L7.10462 8.04743L3.33333 4.27614L4.27614 3.33333L8.04743 7.10462L11.8186 3.33343L12.7614 4.27624L8.99024 8.04743L12.7614 11.8186L11.8186 12.7614Z" fill="#E5E5E5"/>
+                                        </svg>  
+                                        <p hidden>Некорректная фамилия</p>                                         
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="personal__warning">Проверьте правильность ввода данных, они необходимы при получении и оформлении заказа.</span>
+                            <div class="personal__title" data-block="phonesmall1200">Номер телефона</div>
+                            <div class="personal__first-last" data-block="email-big" id="email-add">
+                                <div class="personal__input">
+                                    <div>
+                                        <input type="text" id="phone" name="phone" placeholder="Ваш телефон" class=" personal-data-phone" data-input="clear">
+                                        <svg width="17" class="personal__input-success" hidden height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.0041 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.0041 10.6315Z" fill="#20FF5E"/>
+                                        </svg>                                        
+                                        <svg width="16" class="personal__input-reset" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.8186 12.7614L8.04743 8.99024L4.27614 12.7615L3.33333 11.8187L7.10462 8.04743L3.33333 4.27614L4.27614 3.33333L8.04743 7.10462L11.8186 3.33343L12.7614 4.27624L8.99024 8.04743L12.7614 11.8186L11.8186 12.7614Z" fill="#E5E5E5"/>
+                                        </svg>   
+                                        <p hidden>Некорректный телефон</p>                                     
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="personal__warning">Номер телефона необходим для оформления заказа. При изменении номера телефона вам придется его подтвердить.</span>
+                            <div class="personal__title" data-block="email-small">Электронная почта</div>
+                            <div class="personal__first-last" >
+                                <div class="personal__input">
+                                    <div>
+                                        <input type="text" id="email" name="email" placeholder="Ваш E-mail" class=" personal-data-email" data-input="clear">
+                                        <svg width="17" class="personal__input-success" hidden height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.0041 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.0041 10.6315Z" fill="#20FF5E"/>
+                                        </svg>                                        
+                                        <svg width="16" class="personal__input-reset" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.8186 12.7614L8.04743 8.99024L4.27614 12.7615L3.33333 11.8187L7.10462 8.04743L3.33333 4.27614L4.27614 3.33333L8.04743 7.10462L11.8186 3.33343L12.7614 4.27624L8.99024 8.04743L12.7614 11.8186L11.8186 12.7614Z" fill="#E5E5E5"/>
+                                        </svg>
+                                        <p hidden>Некорректный email</p>                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="personal__warning personal__warning_small">Получайте информацию о состоянии статуса ваших заказов.</span>
+                            <button class="dark-btn width-1-1 margin-bottom-50">Сохранить</button>
+                        </form>
+                        
+                        <div class="personal__title" id="adress-add">Адреса</div>
+                        <div class="address-list">
+                            <p class="personal__adress" >
+                                110000, Россия, г. Москва, ул. Тверская-Ямская, д. 1, кв. 100
+                                <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00409 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.00409 10.6315Z" fill="#20FF5E"/>
+                                </svg> 
+                            </p>
+                        </div>
+                        <button class="gray-btn personal__change" data-toggle="#address-list">Редактировать адрес</button>
+                        <button class="dark-btn personal__add" data-toggle="#add-address">+ Добавить адрес</button>
+                        <div class="personal__title">Бонусная карта</div>
+                        <div class="personal__card" id="card-add"> 
+                            <div class="personal__card-top">
+                                <div>
+                                    <span>Скидка</span>
+                                    <p>5%</p>
+                                </div>
+                                <div>
+                                    <span>Бонусы</span>
+                                    <p>1000 бонусов</p>
+                                </div>
+                                <div>
+                                    <span>Номер карты</span>
+                                    <p>9000000000001</p>
+                                </div>
+                                <div>
+                                    <span>Сумма покупок</span>
+                                    <p>90 000 ₽</p>
+                                </div>
+                            </div>
+                            <div class="personal__card-bottom">
+                                <div class="personal__card-track">
+                                    <div class="personal__card-progress"></div>
+                                </div>
+                                <div class="personal__card-persent">
+                                    <div>
+                                        <span>0%</span>
+                                        <span>5%</span>
+                                    </div>
+                                    <span>10%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="personal__warning personal__warning_small">Вы получите скидку постоянного клиента 5%. Совершите покупки на сумму 60 000 рублей и получите постоянную скидку 10%.</span>
+                        <div class="personal__sum">
+                            <span>Сумма покупок</span>
+                            <p>90 000 ₽</p>
+                        </div>
+                        <a href="#" class="personal__rule">Правила программы лояльности</a>
+                        <div class="personal__apps">
+                            <a href="#" class="gray-btn" data-toggle="#success">Добавить на iOS</a>
+                            <a href="#" class="gray-btn" data-toggle="#success">Добавить на Android</a>
+                        </div>
+                        <div class="personal__title" id="my-cards-add">Мои заказы</div>
+                        <div class="personal__history">
+                            <div class="personal__history-top">
+                                <div>
+                                    <span>Номер заказа</span>
+                                    <p>900000003</p>
+                                </div>
+                                <div>
+                                    <span>Дата оформления</span>
+                                    <p>11.11.2022</p>
+                                </div>
+                                <div>
+                                    <span>Сумма заказа</span>
+                                    <p>5 000 ₽</p>
+                                </div>
+                                <div>
+                                    <span>Статус</span>
+                                    <p>
+                                        <svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.79112 1C7.61169 1 7.43529 1.04621 7.2789 1.13418L1.53257 4.36649C1.37099 4.45738 1.23651 4.58962 1.14292 4.74964C1.04933 4.90967 1 5.09172 1 5.2771V11.7184C1 11.9038 1.04933 12.0858 1.14292 12.2458C1.23651 12.4059 1.37099 12.5381 1.53257 12.629L7.2789 15.8613C7.43529 15.9493 7.6117 15.9955 7.79112 15.9955C7.97055 15.9955 8.14695 15.9493 8.30334 15.8613L14.0497 12.629C14.2113 12.5381 14.3457 12.4059 14.4393 12.2458C14.5329 12.0858 14.5822 11.9038 14.5822 11.7184V5.2771C14.5822 5.09171 14.5329 4.90967 14.4393 4.74964C14.3457 4.58962 14.2113 4.45738 14.0497 4.36649L8.30334 1.13418C8.14696 1.04621 7.97055 1 7.79112 1ZM5.64471 3.25214L7.79112 2.04479L12.9923 4.97044L10.9874 6.11208L5.64471 3.25214ZM11.5145 7.01398L13.5375 5.86224V11.7184L8.11271 14.7698L8.16558 8.92059L10.4697 7.60881V10.6206H11.5145V7.01398ZM7.23016 8.76036L2.04479 5.96887V11.7184L7.17732 14.6054L7.23016 8.76036ZM7.85054 7.89832L2.4953 5.02369L4.65923 3.80648L9.93064 6.71384L7.85054 7.89832Z" fill="#20FF5E"/>
+                                            <path d="M7.2789 1.13418L7.40147 1.35207V1.35207L7.2789 1.13418ZM1.53257 4.36649L1.65513 4.58438L1.65513 4.58438L1.53257 4.36649ZM1.14292 4.74964L1.35872 4.87586H1.35872L1.14292 4.74964ZM1.14292 12.2458L0.927115 12.372H0.927115L1.14292 12.2458ZM1.53257 12.629L1.41 12.8469L1.53257 12.629ZM7.2789 15.8613L7.15634 16.0792L7.15634 16.0792L7.2789 15.8613ZM8.30334 15.8613L8.42591 16.0792L8.42591 16.0792L8.30334 15.8613ZM14.0497 12.629L13.9271 12.4111L13.9271 12.4111L14.0497 12.629ZM14.4393 12.2458L14.6551 12.372L14.6551 12.372L14.4393 12.2458ZM14.4393 4.74964L14.2235 4.87586L14.4393 4.74964ZM14.0497 4.36649L13.9271 4.58438L13.9271 4.58438L14.0497 4.36649ZM8.30334 1.13418L8.18078 1.35207V1.35207L8.30334 1.13418ZM7.79112 2.04479L7.91369 1.82689L7.79112 1.75795L7.66856 1.82689L7.79112 2.04479ZM5.64471 3.25214L5.52215 3.03425L5.12513 3.25757L5.52673 3.47255L5.64471 3.25214ZM12.9923 4.97044L13.116 5.18769L13.4998 4.96911L13.1149 4.75255L12.9923 4.97044ZM10.9874 6.11208L10.8694 6.33249L10.9911 6.39765L11.1111 6.32933L10.9874 6.11208ZM13.5375 5.86224H13.7875V5.43223L13.4138 5.64498L13.5375 5.86224ZM11.5145 7.01398L11.3908 6.79673L11.2645 6.86864V7.01398H11.5145ZM13.5375 11.7184L13.66 11.9363L13.7875 11.8646V11.7184H13.5375ZM8.11271 14.7698L7.86272 14.7675L7.85881 15.1995L8.23527 14.9877L8.11271 14.7698ZM8.16558 8.92059L8.04189 8.70333L7.91689 8.77449L7.91559 8.91833L8.16558 8.92059ZM10.4697 7.60881H10.7197V7.1788L10.346 7.39155L10.4697 7.60881ZM10.4697 10.6206H10.2197V10.8706H10.4697V10.6206ZM11.5145 10.6206V10.8706H11.7645V10.6206H11.5145ZM7.23016 8.76036L7.48015 8.76262L7.48151 8.61175L7.34866 8.54023L7.23016 8.76036ZM2.04479 5.96887L2.16329 5.74874L1.79479 5.55036V5.96887H2.04479ZM2.04479 11.7184H1.79479V11.8646L1.92222 11.9363L2.04479 11.7184ZM7.17732 14.6054L7.05476 14.8233L7.42349 15.0307L7.42731 14.6077L7.17732 14.6054ZM2.4953 5.02369L2.37273 4.8058L1.97625 5.02881L2.37706 5.24396L2.4953 5.02369ZM7.85054 7.89832L7.7323 8.11859L7.85411 8.18397L7.97425 8.11556L7.85054 7.89832ZM4.65923 3.80648L4.77997 3.58756L4.65804 3.52031L4.53667 3.58858L4.65923 3.80648ZM9.93064 6.71384L10.0544 6.93109L10.442 6.71036L10.0514 6.49493L9.93064 6.71384ZM7.40147 1.35207C7.52043 1.28515 7.65463 1.25 7.79112 1.25V0.75C7.56876 0.75 7.35014 0.807267 7.15634 0.916283L7.40147 1.35207ZM1.65513 4.58438L7.40147 1.35207L7.15634 0.916283L1.41 4.1486L1.65513 4.58438ZM1.35872 4.87586C1.42992 4.75412 1.53222 4.65352 1.65513 4.58438L1.41 4.1486C1.20976 4.26123 1.0431 4.42512 0.927115 4.62343L1.35872 4.87586ZM1.25 5.2771C1.25 5.13608 1.28752 4.99759 1.35872 4.87586L0.927115 4.62343C0.81113 4.82175 0.75 5.04736 0.75 5.2771H1.25ZM1.25 11.7184V5.2771H0.75V11.7184H1.25ZM1.35872 12.1196C1.28752 11.9979 1.25 11.8594 1.25 11.7184H0.75C0.75 11.9481 0.811129 12.1737 0.927115 12.372L1.35872 12.1196ZM1.65513 12.4111C1.53222 12.342 1.42992 12.2414 1.35872 12.1196L0.927115 12.372C1.0431 12.5704 1.20976 12.7343 1.41 12.8469L1.65513 12.4111ZM7.40147 15.6434L1.65513 12.4111L1.41 12.8469L7.15634 16.0792L7.40147 15.6434ZM7.79112 15.7455C7.65463 15.7455 7.52043 15.7103 7.40147 15.6434L7.15634 16.0792C7.35015 16.1882 7.56876 16.2455 7.79112 16.2455V15.7455ZM8.18078 15.6434C8.06181 15.7103 7.92762 15.7455 7.79112 15.7455V16.2455C8.01348 16.2455 8.2321 16.1882 8.42591 16.0792L8.18078 15.6434ZM13.9271 12.4111L8.18078 15.6434L8.42591 16.0792L14.1722 12.8469L13.9271 12.4111ZM14.2235 12.1196C14.1523 12.2414 14.05 12.342 13.9271 12.4111L14.1722 12.8469C14.3725 12.7343 14.5391 12.5704 14.6551 12.372L14.2235 12.1196ZM14.3322 11.7184C14.3322 11.8594 14.2947 11.9979 14.2235 12.1196L14.6551 12.372C14.7711 12.1737 14.8322 11.9481 14.8322 11.7184H14.3322ZM14.3322 5.2771V11.7184H14.8322V5.2771H14.3322ZM14.2235 4.87586C14.2947 4.99759 14.3322 5.13608 14.3322 5.2771H14.8322C14.8322 5.04735 14.7711 4.82175 14.6551 4.62343L14.2235 4.87586ZM13.9271 4.58438C14.05 4.65352 14.1523 4.75412 14.2235 4.87586L14.6551 4.62343C14.5391 4.42512 14.3725 4.26123 14.1722 4.1486L13.9271 4.58438ZM8.18078 1.35207L13.9271 4.58438L14.1722 4.1486L8.42591 0.916283L8.18078 1.35207ZM7.79112 1.25C7.92762 1.25 8.06181 1.28515 8.18078 1.35207L8.42591 0.916283C8.2321 0.807267 8.01349 0.75 7.79112 0.75V1.25ZM7.66856 1.82689L5.52215 3.03425L5.76728 3.47004L7.91369 2.26268L7.66856 1.82689ZM13.1149 4.75255L7.91369 1.82689L7.66856 2.26268L12.8697 5.18834L13.1149 4.75255ZM11.1111 6.32933L13.116 5.18769L12.8686 4.75319L10.8637 5.89483L11.1111 6.32933ZM5.52673 3.47255L10.8694 6.33249L11.1054 5.89167L5.7627 3.03173L5.52673 3.47255ZM13.4138 5.64498L11.3908 6.79673L11.6381 7.23124L13.6611 6.07949L13.4138 5.64498ZM13.7875 11.7184V5.86224H13.2875V11.7184H13.7875ZM8.23527 14.9877L13.66 11.9363L13.4149 11.5005L7.99014 14.5519L8.23527 14.9877ZM7.91559 8.91833L7.86272 14.7675L8.3627 14.7721L8.41557 8.92285L7.91559 8.91833ZM10.346 7.39155L8.04189 8.70333L8.28927 9.13784L10.5934 7.82607L10.346 7.39155ZM10.7197 10.6206V7.60881H10.2197V10.6206H10.7197ZM11.5145 10.3706H10.4697V10.8706H11.5145V10.3706ZM11.2645 7.01398V10.6206H11.7645V7.01398H11.2645ZM7.34866 8.54023L2.16329 5.74874L1.92628 6.189L7.11165 8.98049L7.34866 8.54023ZM1.79479 5.96887V11.7184H2.29479V5.96887H1.79479ZM1.92222 11.9363L7.05476 14.8233L7.29989 14.3875L2.16735 11.5005L1.92222 11.9363ZM7.42731 14.6077L7.48015 8.76262L6.98017 8.7581L6.92733 14.6032L7.42731 14.6077ZM2.37706 5.24396L7.7323 8.11859L7.96878 7.67805L2.61354 4.80342L2.37706 5.24396ZM4.53667 3.58858L2.37273 4.8058L2.61786 5.24158L4.7818 4.02437L4.53667 3.58858ZM10.0514 6.49493L4.77997 3.58756L4.5385 4.02539L9.80991 6.93275L10.0514 6.49493ZM7.97425 8.11556L10.0544 6.93109L9.80694 6.49659L7.72683 7.68107L7.97425 8.11556Z" fill="#20FF5E"/>
+                                        </svg>                                            
+                                        Отправлен
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="personal__history-middle">
+                                <div class="personal__history-img">
+                                    <picture><source srcset="./img/1.webp" type="image/webp"><img src="./img/1.jpg" alt="product"></picture>
+                                </div>
+                            </div>
+                            <button class="personal__history-watch dark-btn" data-toggle="#order-3">Смотреть</button>
+                        </div>
+                        <div class="personal__history">
+                            <div class="personal__history-top">
+                                <div>
+                                    <span>Номер заказа</span>
+                                    <p>900000002</p>
+                                </div>
+                                <div>
+                                    <span>Дата оформления</span>
+                                    <p>04.11.2022</p>
+                                </div>
+                                <div>
+                                    <span>Сумма заказа</span>
+                                    <p>35 000 ₽</p>
+                                </div>
+                                <div>
+                                    <span>Статус</span>
+                                    <p>
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6 2.10002C3.71776 2.56329 2 4.58104 2 7C2 9.76142 4.23858 12 7 12C9.41896 12 11.4367 10.2822 11.9 8H6V2.10002ZM11.9 6C11.5023 4.04087 9.95913 2.4977 8 2.10002V6H11.9ZM7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0Z" fill="#FFCD4E"/>
+                                        </svg>                                                                                       
+                                        Создан.<br> Ожидает<br> оплату
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="personal__history-middle">
+                                <div class="personal__history-img">
+                                    <picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.jpg" alt="product"></picture>
+                                </div>
+                            </div>
+                            <button class="personal__history-watch dark-btn" data-toggle="#order-2">Смотреть</button>
+                        </div>
+                        <div class="personal__history">
+                            <div class="personal__history-top">
+                                <div>
+                                    <span>Номер заказа</span>
+                                    <p>900000001</p>
+                                </div>
+                                <div>
+                                    <span>Дата оформления</span>
+                                    <p>01.01.2022</p>
+                                </div>
+                                <div>
+                                    <span>Сумма заказа</span>
+                                    <p>55 000 ₽</p>
+                                </div>
+                                <div>
+                                    <span>Статус</span>
+                                    <p>
+                                        <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00409 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.00409 10.6315Z" fill="#20FF5E"/>
+                                        </svg>                                                                                                                                   
+                                        Доставлен
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="personal__history-middle">
+                                <div class="personal__history-img">
+                                    <picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.jpg" alt="product"></picture>
+                                </div>
+                                <div class="personal__history-img">
+                                    <picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.jpg" alt="product"></picture>
+                                </div>
+                            </div>
+                            <button class="personal__history-watch dark-btn" data-toggle="#order-1">Смотреть</button>
+                        </div>
+                        <div class="personal__history" hidden>
+                            <div class="personal__history-top">
+                                <div>
+                                    <span>Номер заказа</span>
+                                    <p>900000001</p>
+                                </div>
+                                <div>
+                                    <span>Дата оформления</span>
+                                    <p>01.01.2022</p>
+                                </div>
+                                <div>
+                                    <span>Сумма заказа</span>
+                                    <p>55 000 ₽</p>
+                                </div>
+                                <div>
+                                    <span>Статус</span>
+                                    <p>
+                                        <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00409 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.00409 10.6315Z" fill="#20FF5E"/>
+                                        </svg>                                                                                                                                   
+                                        Доставлен
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="personal__history-middle">
+                                <div class="personal__history-img">
+                                    <picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.jpg" alt="product"></picture>
+                                </div>
+                                <div class="personal__history-img">
+                                    <picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.jpg" alt="product"></picture>
+                                </div>
+                            </div>
+                            <button class="personal__history-watch dark-btn" data-toggle="#order-1">Смотреть</button>
+                        </div>
+                        <a href="#" class="personal__next">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22ZM9.10219 14.9529L9.10228 14.9528L4.125 9.97548L5.84514 8.25534L10.8224 13.2326L15.805 8.25L17.5252 9.97014L12.5426 14.9528L12.5427 14.9529L10.8226 16.6731L10.8224 16.6729L10.8223 16.673L9.10219 14.9529Z" fill="#E5E5E5"/>
+                            </svg>                                
+                        </a>
+                        <div class="personal__title" id="favorites-add">Избранное <span>/ 5 товаров</span></div>
+                        <div class="swiper swiper-favorites">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="personal__liked">
+                                        <div class="personal__liked-img">
+                                            <picture><source srcset="./img/3.webp" type="image/webp"><img src="./img/3.jpg" alt="product"></picture>
+                                            <a href="#">
+                                                <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.5712 1.3421C12.774 -0.345817 9.91808 -0.441078 8.0004 1.05334C6.08271 -0.441078 3.22678 -0.345817 1.42955 1.3421C0.507157 2.20839 0 3.36046 0 4.58695C0 5.81345 0.507157 6.96552 1.42955 7.8318L8.0004 14L14.5712 7.82883C16.4763 6.03969 16.4763 3.13124 14.5712 1.3421Z" fill="#010002"/>
+                                                </svg>                                                    
+                                            </a>
+                                        </div>
+                                        <div class="personal__liked-name">
+                                            Battenwear
+                                        </div>
+                                        <div class="personal__liked-desc">
+                                            Футболка Battenwear Polo Tee
+                                        </div>
+                                        <div class="personal__liked-price">
+                                            <p>3 650 ₽</p>
+                                        </div>
+                                        <a href="#" class="personal__liked-add">В корзину</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="personal__liked">
+                                        <div class="personal__liked-img">
+                                            <picture><source srcset="./img/4.webp" type="image/webp"><img src="./img/4.jpg" alt="product"></picture>
+                                            <a href="#">
+                                                <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.5712 1.3421C12.774 -0.345817 9.91808 -0.441078 8.0004 1.05334C6.08271 -0.441078 3.22678 -0.345817 1.42955 1.3421C0.507157 2.20839 0 3.36046 0 4.58695C0 5.81345 0.507157 6.96552 1.42955 7.8318L8.0004 14L14.5712 7.82883C16.4763 6.03969 16.4763 3.13124 14.5712 1.3421Z" fill="#010002"/>
+                                                </svg>                                                    
+                                            </a>
+                                        </div>
+                                        <div class="personal__liked-name">
+                                            Snow Peak
+                                        </div>
+                                        <div class="personal__liked-desc">
+                                            Мужские брюки Snow Peak Camping 2WAY Field Pants
+                                        </div>
+                                        <div class="personal__liked-price">
+                                            <del>20 990 Р</del>
+                                            <p>17 800 ₽</p>
+                                        </div>
+                                        <a href="#" class="personal__liked-add">В корзину</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="personal__liked">
+                                        <div class="personal__liked-img">
+                                            <picture><source srcset="./img/5.webp" type="image/webp"><img src="./img/5.jpg" alt="product"></picture>
+                                            <a href="#">
+                                                <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.5712 1.3421C12.774 -0.345817 9.91808 -0.441078 8.0004 1.05334C6.08271 -0.441078 3.22678 -0.345817 1.42955 1.3421C0.507157 2.20839 0 3.36046 0 4.58695C0 5.81345 0.507157 6.96552 1.42955 7.8318L8.0004 14L14.5712 7.82883C16.4763 6.03969 16.4763 3.13124 14.5712 1.3421Z" fill="#010002"/>
+                                                </svg>                                                    
+                                            </a>
+                                        </div>
+                                        <div class="personal__liked-name">
+                                            Common Projects
+                                        </div>
+                                        <div class="personal__liked-desc">
+                                            Женские кеды Common Projec Original Achilles
+                                        </div>
+                                        <div class="personal__liked-price">
+                                            <p>17 800 ₽</p>
+                                        </div>
+                                        <a href="#" class="personal__liked-add">В корзину</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="personal__liked">
+                                        <div class="personal__liked-img">
+                                            <picture><source srcset="./img/3.webp" type="image/webp"><img src="./img/3.jpg" alt="product"></picture>
+                                            <a href="#">
+                                                <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.5712 1.3421C12.774 -0.345817 9.91808 -0.441078 8.0004 1.05334C6.08271 -0.441078 3.22678 -0.345817 1.42955 1.3421C0.507157 2.20839 0 3.36046 0 4.58695C0 5.81345 0.507157 6.96552 1.42955 7.8318L8.0004 14L14.5712 7.82883C16.4763 6.03969 16.4763 3.13124 14.5712 1.3421Z" fill="#010002"/>
+                                                </svg>                                                    
+                                            </a>
+                                        </div>
+                                        <div class="personal__liked-name">
+                                            Battenwear
+                                        </div>
+                                        <div class="personal__liked-desc">
+                                            Футболка Battenwear Polo Tee
+                                        </div>
+                                        <div class="personal__liked-price">
+                                            <p>3 650 ₽</p>
+                                        </div>
+                                        <a href="#" class="personal__liked-add">В корзину</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="swiper-scrollbar favorites-scrollbar"></div>
+                        <button class="dark-btn">Смотреть все</button>
+                    </div>
+                    <div class="personal__right">
+                        <ul class="static" visible="true">
+                            <li class="active"><a href="#name-lastname-add" scroll>Имя и фамилия</a></li>
+                            <li><a href="#phone-add" scroll>Номер телефона</a></li>
+                            <li><a href="#email-add" scroll>Почта</a></li>
+                            <li><a href="#adress-add" scroll>Адреса</a></li>
+                            <li><a href="#card-add" scroll>Бонусная карта</a></li>
+                            <li><a href="#my-cards-add" scroll>Мои заказы</a></li>
+                            <li><a href="#favorites-add" scroll>Избранное</a></li>
+                            <li><a href="#">Выйти</a></li>
+                        </ul>
+                        <ul class="fixed" visible="false">
+                            <li class="active"><a href="#name-lastname-add" scroll>Имя и фамилия</a></li>
+                            <li><a href="#phone-add" scroll>Номер телефона</a></li>
+                            <li><a href="#email-add" scroll>Почта</a></li>
+                            <li><a href="#adress-add" scroll>Адреса</a></li>
+                            <li><a href="#card-add" scroll>Бонусная карта</a></li>
+                            <li><a href="#my-cards-add" scroll>Мои заказы</a></li>
+                            <li><a href="#favorites-add" scroll>Избранное</a></li>
+                            <li><a href="#">Выйти</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="brand">
+            <div class="container-mod">
+                <div class="brand__title">Бренды</div>
+                <div class="swiper swiper-brand">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#" class="brand__img">
+                                <picture><source srcset="./img/6.webp" type="image/webp"><img src="./img/6.jpg" alt="brand"></picture>
+                                <span>NEW BALANCE</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="brand__img">
+                                <picture><source srcset="./img/7.webp" type="image/webp"><img src="./img/7.jpg" alt="brand"></picture>
+                                <span>THERM-A-RESTE</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="brand__img">
+                                <picture><source srcset="./img/8.webp" type="image/webp"><img src="./img/8.jpg" alt="brand"></picture>
+                                <span>THE NORTH FACE</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="brand__img">
+                                <picture><source srcset="./img/6.webp" type="image/webp"><img src="./img/6.jpg" alt="brand"></picture>
+                                <span>NEW BALANCE</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__grid">
+                <div class="footer__card">
+                    <div class="footer__card-title">Информация</div>
+                    <ul>
+                        <li><a href="#">Интернет-магазин</a></li>
+                        <li><a href="tel:+74957962816">+7(495)796-28-16</a></li>
+                        <li><a href="mailto:info@odyssey.moscow">info@odyssey.moscow</a></li>
+                        <li><a href="#">Сотрудничество</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                    </ul>
+                </div>
+                <div class="footer__card">
+                    <div class="footer__card-title">Помощь</div>
+                    <ul>
+                        <li><a href="#">Доставка и оплата</a></li>
+                        <li><a href="#">Обмен и возврат</a></li>
+                        <li><a href="#">Оплата банковской картой</a></li>
+                        <li><a href="#">Реквизиты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__card">
+                    <div class="footer__card-title">Подписаться на новости</div>
+                    <form action="#" id="subscribe-form">
+                        <input type="text" name="email" placeholder="mail@mail.ru">
+                        <button type="submit">ОК</button>
+                    </form>
+                </div>
+                <div class="footer__card">
+                    <div class="footer__card-title">Документы</div>
+                    <ul>
+                        <li><a href="#">Политика конфиденцильности</a></li>
+                        <li><a href="#">Договор публичной оферты</a></li>
+                        <li><a href="#">Пользовательское соглашение</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__social">
+                <ul>
+                    <li>
+                        <a href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.4844 0H3.51562C1.57727 0 0 1.57727 0 3.51562V20.4844C0 22.4227 1.57727 24 3.51562 24H10.5938V15.5156H7.78125V11.2969H10.5938V8.4375C10.5938 6.11115 12.4861 4.21875 14.8125 4.21875H19.0781V8.4375H14.8125V11.2969H19.0781L18.375 15.5156H14.8125V24H20.4844C22.4227 24 24 22.4227 24 20.4844V3.51562C24 1.57727 22.4227 0 20.4844 0Z" fill="#161616"/>
+                        </svg>                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.9344 7.05609C23.8782 5.78087 23.672 4.90417 23.3766 4.1445C23.0718 3.33813 22.603 2.61618 21.9887 2.01602C21.3886 1.40653 20.6619 0.932924 19.8648 0.632938C19.1008 0.33753 18.2286 0.131313 16.9534 0.0750881C15.6687 0.0141019 15.2608 0 12.0024 0C8.74392 0 8.33606 0.0141019 7.05608 0.0703264C5.78087 0.126551 4.90417 0.332952 4.14468 0.628176C3.33812 0.932924 2.61618 1.40177 2.01602 2.01602C1.40653 2.61618 0.933107 3.34289 0.632938 4.13992C0.33753 4.90417 0.131313 5.77611 0.0750881 7.05133C0.0141019 8.33607 0 8.74392 0 12.0024C0 15.2608 0.0141019 15.6687 0.0703264 16.9487C0.126551 18.2239 0.332952 19.1006 0.628359 19.8603C0.933107 20.6666 1.40653 21.3886 2.01602 21.9887C2.61618 22.5982 3.34289 23.0718 4.13992 23.3718C4.90417 23.6672 5.77611 23.8734 7.0515 23.9297C8.3313 23.9861 8.73934 24 11.9978 24C15.2563 24 15.6641 23.9861 16.9441 23.9297C18.2193 23.8734 19.096 23.6672 19.8555 23.3718C21.4684 22.7482 22.7436 21.473 23.3672 19.8603C23.6625 19.096 23.8689 18.2239 23.9251 16.9487C23.9813 15.6687 23.9954 15.2608 23.9954 12.0024C23.9954 8.74392 23.9906 8.33607 23.9344 7.05609ZM21.7732 16.8549C21.7215 18.027 21.5246 18.66 21.3605 19.0819C20.9573 20.1275 20.1275 20.9573 19.0819 21.3606C18.6599 21.5247 18.0224 21.7215 16.8549 21.773C15.589 21.8294 15.2094 21.8433 12.0071 21.8433C8.8049 21.8433 8.42049 21.8294 7.15919 21.773C5.98708 21.7215 5.35415 21.5247 4.93219 21.3606C4.41188 21.1683 3.93828 20.8635 3.55386 20.465C3.15535 20.0758 2.8506 19.607 2.6583 19.0867C2.49421 18.6647 2.29733 18.027 2.24587 16.8597C2.18946 15.5938 2.17554 15.214 2.17554 12.0117C2.17554 8.80949 2.18946 8.42507 2.24587 7.16396C2.29733 5.99185 2.49421 5.35891 2.6583 4.93695C2.8506 4.41646 3.15535 3.94304 3.55863 3.55845C3.94762 3.15993 4.41646 2.85518 4.93695 2.66306C5.35891 2.49897 5.99661 2.30209 7.16395 2.25045C8.42983 2.19422 8.80966 2.18012 12.0117 2.18012C15.2187 2.18012 15.5984 2.19422 16.8597 2.25045C18.0318 2.30209 18.6647 2.49897 19.0867 2.66306C19.607 2.85518 20.0806 3.15993 20.465 3.55845C20.8635 3.94762 21.1682 4.41646 21.3605 4.93695C21.5246 5.35891 21.7215 5.99643 21.7732 7.16396C21.8294 8.42983 21.8435 8.80949 21.8435 12.0117C21.8435 15.214 21.8294 15.589 21.7732 16.8549Z" fill="#161616"/>
+                                <path d="M12.0024 5.83716C8.59869 5.83716 5.8371 8.59857 5.8371 12.0024C5.8371 15.4063 8.59869 18.1677 12.0024 18.1677C15.4062 18.1677 18.1677 15.4063 18.1677 12.0024C18.1677 8.59857 15.4062 5.83716 12.0024 5.83716ZM12.0024 16.0017C9.79424 16.0017 8.00311 14.2108 8.00311 12.0024C8.00311 9.79412 9.79424 8.00318 12.0024 8.00318C14.2107 8.00318 16.0016 9.79412 16.0016 12.0024C16.0016 14.2108 14.2107 16.0017 12.0024 16.0017Z" fill="#161616"/>
+                                <path d="M19.8509 5.59324C19.8509 6.38808 19.2064 7.03256 18.4114 7.03256C17.6166 7.03256 16.9721 6.38808 16.9721 5.59324C16.9721 4.79822 17.6166 4.15393 18.4114 4.15393C19.2064 4.15393 19.8509 4.79822 19.8509 5.59324Z" fill="black"/>
+                            </svg>                                
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.4247 0.00618582C19.6214 -0.132097 17.0523 2.04843 15.6969 6.51349C16.394 6.20149 17.0717 6.06207 17.7277 6.06207C19.1208 6.06207 19.7368 6.85862 19.5722 8.44145C19.4899 9.40029 18.8774 10.7945 17.73 12.6288C16.5768 14.463 15.7151 15.3819 15.1414 15.3819C13.402 15.3819 12.3563 7.05748 12.0021 4.78438C11.5095 1.62444 10.1964 0.146755 8.06271 0.353608C6.10389 0.53989 2.68566 4.06668 0 6.45749L1.29026 8.13974C2.51881 7.2689 3.23537 6.83234 3.43994 6.83234C5.57818 6.83234 6.61359 14.1088 8.27413 19.5201C9.3884 22.5063 10.7244 24 12.3346 24C14.922 24 18.074 21.5498 21.8087 16.647C25.4144 11.9534 27.2818 8.25402 27.4018 5.55579L27.4166 5.54436C27.5698 1.92729 26.2498 0.0758987 23.4247 0.00618582Z" fill="#161616"/>
+                            </svg>                                
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__copy">© 2020 Odyssey. Все права защищены</div>
+        </div>
+    </div>
+</footer>
+    <div class="menu">
+        <div class="menu-main">
+            <ul class="menu__top-links">
+                <li><a href="tel:88006001123">8 (800) 600-11-23</a></li>
+                <li><a href="#">Бренды</a></li>
+                <li><a href="#">Новинки</a></li>
+                <li class="box">
+                    <a href="#" class="accordion">
+                        Мужское
+                        <svg width="8" class="close-accordion" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3" width="2" height="7" fill="black"/>
+                            <rect x="7.5" y="2.5" width="2" height="7" transform="rotate(90 7.5 2.5)" fill="black"/>
+                        </svg>                        
+                    </a>
+                    <div class="menu__top-links-content">
+                        <ul>
+                            <li><a href="#">Джинсы и брюки</a></li>	
+                            <li><a href="#">Юбки</a></li>
+                            <li><a href="#">Куртки</a></li>
+                            <li><a href="#">Нижнее белье</a></li>
+                            <li><a href="#">Рубашки</a></li>
+                            <li><a href="#">Спортивная экипировка</a></li>
+                            <li><a href="#">Свитеры</a></li>
+                            <li><a href="#">Толстовки и худи</a></li>
+                            <li><a href="#">Футболки и поло</a></li>
+                            <li><a href="#">Платья</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="box">
+                    <a href="#" class="accordion">
+                        Женское
+                        <svg width="8" class="close-accordion" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3" width="2" height="7" fill="black"/>
+                            <rect x="7.5" y="2.5" width="2" height="7" transform="rotate(90 7.5 2.5)" fill="black"/>
+                        </svg>                        
+                    </a>
+                    <div class="menu__top-links-content">
+                        <ul>
+                            <li><a href="#">Джинсы и брюки</a></li>	
+                            <li><a href="#">Юбки</a></li>
+                            <li><a href="#">Куртки</a></li>
+                            <li><a href="#">Нижнее белье</a></li>
+                            <li><a href="#">Рубашки</a></li>
+                            <li><a href="#">Спортивная экипировка</a></li>
+                            <li><a href="#">Свитеры</a></li>
+                            <li><a href="#">Толстовки и худи</a></li>
+                            <li><a href="#">Футболки и поло</a></li>
+                            <li><a href="#">Платья</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="box">
+                    <a href="#" class="accordion">
+                        Снаряжение
+                        <svg width="8" class="close-accordion" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3" width="2" height="7" fill="black"/>
+                            <rect x="7.5" y="2.5" width="2" height="7" transform="rotate(90 7.5 2.5)" fill="black"/>
+                        </svg>                        
+                    </a>
+                    <div class="menu__top-links-content">
+                        <ul>
+                            <li><a href="#">Джинсы и брюки</a></li>	
+                            <li><a href="#">Юбки</a></li>
+                            <li><a href="#">Куртки</a></li>
+                            <li><a href="#">Нижнее белье</a></li>
+                            <li><a href="#">Рубашки</a></li>
+                            <li><a href="#">Спортивная экипировка</a></li>
+                            <li><a href="#">Свитеры</a></li>
+                            <li><a href="#">Толстовки и худи</a></li>
+                            <li><a href="#">Футболки и поло</a></li>
+                            <li><a href="#">Платья</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="box">
+                    <a href="#" class="accordion">
+                        Аксессуары
+                        <svg width="8" class="close-accordion" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3" width="2" height="7" fill="black"/>
+                            <rect x="7.5" y="2.5" width="2" height="7" transform="rotate(90 7.5 2.5)" fill="black"/>
+                        </svg>                        
+                    </a>
+                    <div class="menu__top-links-content">
+                        <ul>
+                            <li><a href="#">Джинсы и брюки</a></li>	
+                            <li><a href="#">Юбки</a></li>
+                            <li><a href="#">Куртки</a></li>
+                            <li><a href="#">Нижнее белье</a></li>
+                            <li><a href="#">Рубашки</a></li>
+                            <li><a href="#">Спортивная экипировка</a></li>
+                            <li><a href="#">Свитеры</a></li>
+                            <li><a href="#">Толстовки и худи</a></li>
+                            <li><a href="#">Футболки и поло</a></li>
+                            <li><a href="#">Платья</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="box">
+                    <a href="#" class="accordion">
+                        Подарки
+                        <svg width="8" class="close-accordion" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3" width="2" height="7" fill="black"/>
+                            <rect x="7.5" y="2.5" width="2" height="7" transform="rotate(90 7.5 2.5)" fill="black"/>
+                        </svg>                        
+                    </a>
+                    <div class="menu__top-links-content">
+                        <ul>
+                            <li><a href="#">Джинсы и брюки</a></li>	
+                            <li><a href="#">Юбки</a></li>
+                            <li><a href="#">Куртки</a></li>
+                            <li><a href="#">Нижнее белье</a></li>
+                            <li><a href="#">Рубашки</a></li>
+                            <li><a href="#">Спортивная экипировка</a></li>
+                            <li><a href="#">Свитеры</a></li>
+                            <li><a href="#">Толстовки и худи</a></li>
+                            <li><a href="#">Футболки и поло</a></li>
+                            <li><a href="#">Платья</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Распродажа</a></li>
+                <li><a href="#">Журнал</a></li>
+            </ul>
+            <div class="menu__account">
+                <div>
+                    <p>Иван Иванов</p>
+                    <a href="tel:+79001234567">+7 (900) 123 45 67</a>
+                </div>
+                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5413 9.9675L1.57383 0L1.30893e-05 1.57382L8.39371 9.96751L0 18.3612L1.57382 19.935L9.96751 11.5413L11.5413 9.96753L11.5413 9.9675Z" fill="#D9D9D9"/>
+                </svg>                
+            </div>
+            <a href="#" class="menu__exit">Выйти</a>
+            <ul class="menu__bottom-links">
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Обмен и возврат</a></li>
+                <li><a href="#">Оплата банковской картой</a></li>
+                <li><a href="#">Реквизиты</a></li>
+            </ul>
+            <div class="menu__time">Ежедневно</div>
+            <a href="mailto:info@odyssey.shop" class="menu__email">info@odyssey.shop</a>
+        </div>
+        <div class="account-menu" hidden>
+            <div class="menu__account menu__account_more">
+                <div>
+                    <p>Иван Иванов</p>
+                    <a href="tel:+79001234567">+7 (900) 123 45 67</a>
+                </div>
+                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5413 9.9675L1.57383 0L1.30893e-05 1.57382L8.39371 9.96751L0 18.3612L1.57382 19.935L9.96751 11.5413L11.5413 9.96753L11.5413 9.9675Z" fill="#D9D9D9"/>
+                </svg>                
+            </div>
+            <a href="#" class="account-menu__cart">Заказы</a>
+            <a href="#" class="account-menu__favorites">Избранное</a>
+            <div class="account-menu__bonus">
+                <p>Бонусная карта</p>
+                <span>Баланс: 1000 бонусов</span>
+                <span>Скидка 5%</span>
+            </div>
+            <a href="#" class="account-menu__exit">Выйти</a>
+        </div>
+        <div class="account-cart" hidden>
+            <div class="account-cart__top">
+                <div>
+                    <p>Корзина</p>
+                    <span>2 товара</span>
+                </div>
+                <svg width="15" class="account-cart__trash" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_8_4006)">
+                    <path d="M9.32628 0H5.67372V1.97202H1.05908V5.26049H1.91801L2.87818 15.426H12.1218L13.082 5.26049H13.9409V1.97202H9.32628V0ZM6.55263 0.903865H8.44737V1.97202H6.55263V0.903865ZM11.3242 14.5221H3.67585L2.80104 5.26049H12.1989L11.3242 14.5221ZM13.062 2.87589V4.35663H1.93799V2.87589H13.062Z" fill="#808080"/>
+                    <path d="M7.93945 7.02002H7.06055V12.7647H7.93945V7.02002Z" fill="#808080"/>
+                    <path d="M9.41066 7.02002L9.14893 12.7646H10.0288L10.2905 7.02002H9.41066Z" fill="#808080"/>
+                    <path d="M5.5891 7.02002H4.70923L4.97097 12.7646H5.85084L5.5891 7.02002Z" fill="#808080"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_8_4006">
+                    <rect width="15" height="15.426" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg>                    
+            </div>
+            <div class="account-cart__product">
+                <div class="account-cart__img">
+                    <picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.jpg" alt="product"></picture>
+                </div>
+                <div class="account-cart__wr">
+                    <p class="account-cart__name">And Wander</p>
+                    <span class="account-cart__size">
+                        Толстовка High loft fleece jacket<br>
+                        Размер: L
+                    </span>
+                    <div class="account-cart__count">
+                        <div>
+                            <button data-counter="-">-</button>
+                            <span data-counter="sum">1</span>
+                            <button data-counter="+">+</button>
+                        </div>
+                        <p>26 990 ₽</p>
+                    </div>
+                </div>
+            </div>
+            <div class="account-cart__product">
+                <div class="account-cart__img">
+                    <picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.jpg" alt="product"></picture>
+                </div>
+                <div class="account-cart__wr">
+                    <p class="account-cart__name">And Wander</p>
+                    <span class="account-cart__size">
+                        Толстовка High loft fleece jacket<br>
+                        Размер: L
+                    </span>
+                    <div class="account-cart__count">
+                        <div>
+                            <button data-counter="-">-</button>
+                            <span data-counter="sum">1</span>
+                            <button data-counter="+">+</button>
+                        </div>
+                        <p>26 990 ₽</p>
+                    </div>
+                </div>
+            </div>
+            <div class="account-cart__sum">
+                <p>Итого</p>
+                <span>35 990 ₽</span>
+            </div>
+            <button class="dark-btn">Оформить заказ ></button>
+        </div>
+        <div class="account-favorites" hidden>
+            <div class="account-cart__top">
+                <div>
+                    <p>Избранное</p>
+                    <span>3 товара</span>
+                </div>
+                <svg width="15" class="account-cart__trash" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_8_4006)">
+                    <path d="M9.32628 0H5.67372V1.97202H1.05908V5.26049H1.91801L2.87818 15.426H12.1218L13.082 5.26049H13.9409V1.97202H9.32628V0ZM6.55263 0.903865H8.44737V1.97202H6.55263V0.903865ZM11.3242 14.5221H3.67585L2.80104 5.26049H12.1989L11.3242 14.5221ZM13.062 2.87589V4.35663H1.93799V2.87589H13.062Z" fill="#808080"/>
+                    <path d="M7.93945 7.02002H7.06055V12.7647H7.93945V7.02002Z" fill="#808080"/>
+                    <path d="M9.41066 7.02002L9.14893 12.7646H10.0288L10.2905 7.02002H9.41066Z" fill="#808080"/>
+                    <path d="M5.5891 7.02002H4.70923L4.97097 12.7646H5.85084L5.5891 7.02002Z" fill="#808080"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_8_4006">
+                    <rect width="15" height="15.426" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg>                    
+            </div>
+            <div class="account-cart__product">
+                <div class="account-cart__img">
+                    <picture><source srcset="./img/9.webp" type="image/webp"><img src="./img/9.jpg" alt="product"></picture>
+                </div>
+                <div class="account-cart__wr">
+                    <p class="account-cart__name">And Wander</p>
+                    <span class="account-cart__size">
+                        Толстовка High loft fleece jacket<br>
+                        Размер: L
+                    </span>
+                    <div class="account-cart__count">
+                        <div>
+                            <button data-counter="-">-</button>
+                            <span data-counter="sum">1</span>
+                            <button data-counter="+">+</button>
+                        </div>
+                        <p>26 990 ₽</p>
+                    </div>
+                </div>
+            </div>
+            <div class="account-cart__product">
+                <div class="account-cart__img">
+                    <picture><source srcset="./img/10.webp" type="image/webp"><img src="./img/10.jpg" alt="product"></picture>
+                </div>
+                <div class="account-cart__wr">
+                    <p class="account-cart__name">And Wander</p>
+                    <span class="account-cart__size">
+                        Толстовка High loft fleece jacket<br>
+                        Размер: L
+                    </span>
+                    <div class="account-cart__count">
+                        <div>
+                            <button data-counter="-">-</button>
+                            <span data-counter="sum">1</span>
+                            <button data-counter="+">+</button>
+                        </div>
+                        <p>26 990 ₽</p>
+                    </div>
+                </div>
+            </div>
+            <div class="account-cart__product">
+                <div class="account-cart__img">
+                    <picture><source srcset="./img/11.webp" type="image/webp"><img src="./img/11.jpg" alt="product"></picture>
+                </div>
+                <div class="account-cart__wr">
+                    <p class="account-cart__name">And Wander</p>
+                    <span class="account-cart__size">
+                        Толстовка High loft fleece jacket<br>
+                        Размер: L
+                    </span>
+                    <div class="account-cart__count">
+                        <div>
+                            <button data-counter="-">-</button>
+                            <span data-counter="sum">1</span>
+                            <button data-counter="+">+</button>
+                        </div>
+                        <p>26 990 ₽</p>
+                    </div>
+                </div>
+            </div>
+            <div class="account-cart__sum" hidden>
+                <p>Итого</p>
+                <span>35 990 ₽</span>
+            </div>
+            <button class="dark-btn">Перейти в избранное</button>
+        </div>
+    </div>
+    <div class="overlay" id="address-list">
+        <div class="add">
+            <button class="add__close">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77808 9.19238L0 16.9706L1.41431 18.3848L9.19238 10.6067L16.9705 18.3848L18.3848 16.9706L10.6067 9.19238L18.3848 1.41418L16.9705 0L9.19238 7.7782L1.41406 0L0 1.41418L7.77808 9.19238Z" fill="black"/>
+                </svg>                    
+            </button>
+            <div class="add__list">
+                <div class="add__title">Адреса</div>
+                <div class="add__modal-address-list">
+                    <p>110000, Россия, г. Москва, ул. Тверская-Ямская, д. 1, кв. 100</p>
+                    <button class="add__change" data-modal="#change-address">Редактировать</button>
+                </div>
+                <button class="add__add dark-btn" data-toggle="#add-address">+ Добавить адрес</button>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="add-address">
+        <div class="add">
+            <button class="add__close">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77808 9.19238L0 16.9706L1.41431 18.3848L9.19238 10.6067L16.9705 18.3848L18.3848 16.9706L10.6067 9.19238L18.3848 1.41418L16.9705 0L9.19238 7.7782L1.41406 0L0 1.41418L7.77808 9.19238Z" fill="black"/>
+                </svg>                    
+            </button>
+            <div class="add__new">
+                <div class="add__title">Новый адрес</div>
+                <form action="#" id="add-address-form">
+                    <div class="add__wrapper">
+                        <div class="add__left">
+                            <div class="add__input">
+                                <label for="country">Страна</label>
+                                <div>
+                                    <input type="text" id="country" name="country" placeholder="Россия" class="check-input add-country-input" data-input="modal" data-input="clear" required>
+                                    <svg width="17" class="personal__input-success" data-svg="succes" hidden height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.0041 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.0041 10.6315Z" fill="#20FF5E"/>
+                                    </svg>                                        
+                                    <svg width="16" class="personal__input-reset" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.8186 12.7614L8.04743 8.99024L4.27614 12.7615L3.33333 11.8187L7.10462 8.04743L3.33333 4.27614L4.27614 3.33333L8.04743 7.10462L11.8186 3.33343L12.7614 4.27624L8.99024 8.04743L12.7614 11.8186L11.8186 12.7614Z" fill="#E5E5E5"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add__right">
+                            <div class="add__input">
+                                <label for="adress">Город, улица, дом, корпус, строение, квартира</label>
+                                <div>
+                                    <input type="text" list="street" id="address" name="name" placeholder="Введите адрес" data-input="modal" data-input="clear" class="check-input add-city-input" required>
+                                    <datalist id="street">
+                                        <option value="Atom"></option>
+                                        <option value="Brackets"></option>		
+                                        <option value="Notepad ++"></option>
+                                        <option value="Notepad"></option>
+                                        <option value="Sublime Text"></option>
+                                        <option value="TextEdit"></option>
+                                        <option value="TextMate"></option>
+                                        <option value="Wordpad"></option>
+                                    </datalist>
+                                    <svg width="17" class="personal__input-success" data-svg="succes" hidden height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.0041 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.0041 10.6315Z" fill="#20FF5E"/>
+                                    </svg>                                        
+                                    <svg width="16" class="personal__input-reset" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.8186 12.7614L8.04743 8.99024L4.27614 12.7615L3.33333 11.8187L7.10462 8.04743L3.33333 4.27614L4.27614 3.33333L8.04743 7.10462L11.8186 3.33343L12.7614 4.27624L8.99024 8.04743L12.7614 11.8186L11.8186 12.7614Z" fill="#E5E5E5"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <span class="add__warning">Выберите ваш адрес из выпадающего списка</span>
+                            <div class="add__checkbox">
+                                <input type="checkbox" hidden checked id="nostreet">
+                                <label for="nostreet">
+                                    <div></div>
+                                    Нет номера квартиры
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="dark-btn">Сохранить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="change-address">
+        <div class="add">
+            <button class="add__close">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77808 9.19238L0 16.9706L1.41431 18.3848L9.19238 10.6067L16.9705 18.3848L18.3848 16.9706L10.6067 9.19238L18.3848 1.41418L16.9705 0L9.19238 7.7782L1.41406 0L0 1.41418L7.77808 9.19238Z" fill="black"/>
+                </svg>                    
+            </button>
+            <div class="add__new">
+                <div class="add__title">Редактирование адреса</div>
+                <form action="#" id="change-address-form">
+                    <div class="add__wrapper">
+                        <div class="add__left">
+                            <div class="add__input">
+                                <label for="country">Страна</label>
+                                <div>
+                                    <input type="text" id="country" name="country" placeholder="Россия" class="check-input change-country-input" data-input="modal" data-input="clear" required>
+                                    <svg width="17" class="personal__input-success" data-svg="succes" hidden height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.0041 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.0041 10.6315Z" fill="#20FF5E"/>
+                                    </svg>                                        
+                                    <svg width="16" class="personal__input-reset" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.8186 12.7614L8.04743 8.99024L4.27614 12.7615L3.33333 11.8187L7.10462 8.04743L3.33333 4.27614L4.27614 3.33333L8.04743 7.10462L11.8186 3.33343L12.7614 4.27624L8.99024 8.04743L12.7614 11.8186L11.8186 12.7614Z" fill="#E5E5E5"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add__right">
+                            <div class="add__input">
+                                <label for="adress">Город, улица, дом, корпус, строение, квартира</label>
+                                <div>
+                                    <input type="text" list="street" id="address" name="name" placeholder="Введите адрес" data-input="clear" data-input="modal" class="check-input change-city-input" required>
+                                    <datalist id="street">
+                                        <option value="Atom"></option>
+                                        <option value="Brackets"></option>		
+                                        <option value="Notepad ++"></option>
+                                        <option value="Notepad"></option>
+                                        <option value="Sublime Text"></option>
+                                        <option value="TextEdit"></option>
+                                        <option value="TextMate"></option>
+                                        <option value="Wordpad"></option>
+                                    </datalist>
+                                    <svg width="17" class="personal__input-success" data-svg="succes" hidden height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.0041 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.0041 10.6315Z" fill="#20FF5E"/>
+                                    </svg>                                        
+                                    <svg width="16" class="personal__input-reset" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.8186 12.7614L8.04743 8.99024L4.27614 12.7615L3.33333 11.8187L7.10462 8.04743L3.33333 4.27614L4.27614 3.33333L8.04743 7.10462L11.8186 3.33343L12.7614 4.27624L8.99024 8.04743L12.7614 11.8186L11.8186 12.7614Z" fill="#E5E5E5"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <span class="add__warning">Выберите ваш адрес из выпадающего списка</span>
+                            <div class="add__checkbox">
+                                <input type="checkbox" hidden checked id="nostreet-change">
+                                <label for="nostreet-change">
+                                    <div></div>
+                                    Нет номера квартиры
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="dark-btn">Сохранить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="order-1">
+        <div class="order">
+            <button class="add__close">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77808 9.19238L0 16.9706L1.41431 18.3848L9.19238 10.6067L16.9705 18.3848L18.3848 16.9706L10.6067 9.19238L18.3848 1.41418L16.9705 0L9.19238 7.7782L1.41406 0L0 1.41418L7.77808 9.19238Z" fill="black"/>
+                </svg>                    
+            </button>
+            <div class="add__title">Заказ 900000001</div>
+            <div class="order__wrapper">
+                <div class="order__left">
+                    <div class="order__card">
+                        <div class="order__card-img">
+                            <picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.jpg" alt="product"></picture>
+                        </div>
+                        <div>
+                            <div class="order__card-name">And Wander</div>
+                            <div class="order__card-desc">
+                                Толстовка High loft fleece jacket<br> 
+                                Размер: L
+                            </div>
+                            <div class="order__card-price">26 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="order__card">
+                        <div class="order__card-img">
+                            <picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.jpg" alt="product"></picture>
+                        </div>
+                        <div>
+                            <div class="order__card-name">And Wander</div>
+                            <div class="order__card-desc">
+                                Толстовка High loft fleece jacket<br> 
+                                Размер: L
+                            </div>
+                            <div class="order__card-price">26 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="order__count-left">2 товара</div>
+                    <div class="order__calc-left">
+                        <p>Доставка</p>
+                        <p>500 ₽</p>
+                    </div>
+                    <div class="order__calc-left">
+                        <span>Итого</span>
+                        <p>55 000 ₽</p>
+                    </div>
+                </div>
+                <div class="order__right">
+                    <div class="order__grid">
+                        <div>
+                            <span>Номер заказа</span>
+                            <p>900000001</p>
+                        </div>
+                        <div>
+                            <span>Дата оформления</span>
+                            <p>01.01.2022</p>
+                        </div>
+                        <div>
+                            <span>Сумма заказа</span>
+                            <p>55 000 ₽</p>
+                        </div>
+                        <div>
+                            <span>Статус</span>
+                            <p>
+                                <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00409 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.00409 10.6315Z" fill="#20FF5E"/>
+                                </svg>                                    
+                                Доставлен
+                            </p>
+                        </div>
+                        <div>
+                            <span>Способ оплаты</span>
+                            <p>
+                                <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00409 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.00409 10.6315Z" fill="#20FF5E"/>
+                                </svg>                                    
+                                Оплачен картой
+                            </p>
+                        </div>
+                    </div>
+                    <div class="order__address">
+                        <span>Адрес доставки</span>
+                        <p>110000, Россия, г. Москва, ул. Тверская-Ямская, д. 1, кв. 100</p>
+                    </div>
+                    <div class="order__address">
+                        <span>Способ доставки</span>
+                        <p>Курьером</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="order-2">
+        <div class="order">
+            <button class="add__close">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77808 9.19238L0 16.9706L1.41431 18.3848L9.19238 10.6067L16.9705 18.3848L18.3848 16.9706L10.6067 9.19238L18.3848 1.41418L16.9705 0L9.19238 7.7782L1.41406 0L0 1.41418L7.77808 9.19238Z" fill="black"/>
+                </svg>                    
+            </button>
+            <div class="add__title">Заказ 900000002</div>
+            <div class="order__wrapper">
+                <div class="order__left">
+                    <div class="order__card">
+                        <div class="order__card-img">
+                            <picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.jpg" alt="product"></picture>
+                        </div>
+                        <div>
+                            <div class="order__card-name">And Wander</div>
+                            <div class="order__card-desc">
+                                Толстовка High loft fleece jacket<br> 
+                                Размер: L
+                            </div>
+                            <div class="order__card-price">26 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="order__count-left">1 товар</div>
+                    <div class="order__calc-left">
+                        <p>Доставка</p>
+                        <p>500 ₽</p>
+                    </div>
+                    <div class="order__calc-left">
+                        <span>Итого</span>
+                        <p>35 000 ₽</p>
+                    </div>
+                    <button class="order__button-bottom order__button-bottom_first dark-btn">Оплатить заказ</button>
+                    <button class="order__button-bottom gray-btn">Отменить заказ</button>
+                </div>
+                <div class="order__right">
+                    <div class="order__grid">
+                        <div>
+                            <span>Номер заказа</span>
+                            <p>900000002</p>
+                        </div>
+                        <div>
+                            <span>Дата оформления</span>
+                            <p>01.01.2022</p>
+                        </div>
+                        <div>
+                            <span>Сумма заказа</span>
+                            <p>55 000 ₽</p>
+                        </div>
+                        <div>
+                            <span>Статус</span>
+                            <p>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6 2.10002C3.71776 2.56329 2 4.58104 2 7C2 9.76142 4.23858 12 7 12C9.41896 12 11.4367 10.2822 11.9 8H6V2.10002ZM11.9 6C11.5023 4.04087 9.95913 2.4977 8 2.10002V6H11.9ZM7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0Z" fill="#FFCD4E"/>
+                                </svg>                                                                        
+                                Создан. Ожидает оплату
+                            </p>
+                        </div>
+                        <div>
+                            <span>Способ оплаты</span>
+                            <p>
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.94975 6.36396L0 11.3137L1.41421 12.7279L6.36396 7.77817L11.3137 12.7279L12.7279 11.3137L7.77817 6.36396L12.7279 1.41421L11.3137 0L6.36396 4.94975L1.41421 0L0 1.41422L4.94975 6.36396Z" fill="#E90000"/>
+                                </svg>                                                                        
+                                Не оплачен
+                            </p>
+                        </div>
+                    </div>
+                    <div class="order__address">
+                        <span>Адрес доставки</span>
+                        <p>110000, Россия, г. Москва, ул. Тверская-Ямская, д. 1, кв. 100</p>
+                    </div>
+                    <div class="order__address">
+                        <span>Способ доставки</span>
+                        <p>Курьером</p>
+                    </div>
+                    <button class="order__button order__button_first dark-btn">Оплатить заказ</button>
+                    <button class="order__button gray-btn">Отменить заказ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="order-3">
+        <div class="order">
+            <button class="add__close">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77808 9.19238L0 16.9706L1.41431 18.3848L9.19238 10.6067L16.9705 18.3848L18.3848 16.9706L10.6067 9.19238L18.3848 1.41418L16.9705 0L9.19238 7.7782L1.41406 0L0 1.41418L7.77808 9.19238Z" fill="black"/>
+                </svg>                    
+            </button>
+            <div class="add__title">Заказ 900000003</div>
+            <div class="order__wrapper">
+                <div class="order__left">
+                    <div class="order__card">
+                        <div class="order__card-img">
+                            <picture><source srcset="./img/1.webp" type="image/webp"><img src="./img/1.jpg" alt="product"></picture>
+                        </div>
+                        <div>
+                            <div class="order__card-name">And Wander</div>
+                            <div class="order__card-desc">
+                                Толстовка High loft fleece jacket<br> 
+                                Размер: L
+                            </div>
+                            <div class="order__card-price">5 000 ₽</div>
+                        </div>
+                    </div>
+                    <div class="order__count-left">1 товар</div>
+                    <div class="order__calc-left">
+                        <p>Доставка</p>
+                        <p>500 ₽</p>
+                    </div>
+                    <div class="order__calc-left">
+                        <span>Итого</span>
+                        <p>5 000 ₽</p>
+                    </div>
+                    <button class="order__button-bottom order__button-bottom_first dark-btn">Оплатить заказ</button>
+                    <button class="order__button-bottom gray-btn">Отменить заказ</button>
+                </div>
+                <div class="order__right">
+                    <div class="order__grid">
+                        <div>
+                            <span>Номер заказа</span>
+                            <p>900000003</p>
+                        </div>
+                        <div>
+                            <span>Дата оформления</span>
+                            <p>01.01.2022</p>
+                        </div>
+                        <div>
+                            <span>Сумма заказа</span>
+                            <p>5 000 ₽</p>
+                        </div>
+                        <div>
+                            <span>Статус</span>
+                            <p>
+                                <svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.61729 1C7.43787 1 7.26146 1.04621 7.10508 1.13418L1.35874 4.36649C1.19716 4.45738 1.06268 4.58962 0.969089 4.74964C0.875499 4.90967 0.826172 5.09172 0.826172 5.2771V11.7184C0.826172 11.9038 0.875498 12.0858 0.969089 12.2458C1.06268 12.4059 1.19716 12.5381 1.35874 12.629L7.10508 15.8613C7.26146 15.9493 7.43787 15.9955 7.61729 15.9955C7.79672 15.9955 7.97313 15.9493 8.12951 15.8613L13.8758 12.629C14.0374 12.5381 14.1719 12.4059 14.2655 12.2458C14.3591 12.0858 14.4084 11.9038 14.4084 11.7184V5.2771C14.4084 5.09171 14.3591 4.90967 14.2655 4.74964C14.1719 4.58962 14.0374 4.45738 13.8758 4.36649L8.12951 1.13418C7.97313 1.04621 7.79672 1 7.61729 1ZM5.47089 3.25214L7.61729 2.04479L12.8185 4.97044L10.8136 6.11208L5.47089 3.25214ZM11.3406 7.01398L13.3636 5.86224V11.7184L7.93888 14.7698L7.99175 8.92059L10.2958 7.60881V10.6206H11.3406V7.01398ZM7.05633 8.76036L1.87096 5.96887V11.7184L7.00349 14.6054L7.05633 8.76036ZM7.67671 7.89832L2.32147 5.02369L4.48541 3.80648L9.75681 6.71384L7.67671 7.89832Z" fill="#20FF5E"/>
+                                    <path d="M7.10508 1.13418L7.17862 1.26491V1.26491L7.10508 1.13418ZM1.35874 4.36649L1.43228 4.49723H1.43228L1.35874 4.36649ZM0.969089 4.74964L1.09857 4.82537H1.09857L0.969089 4.74964ZM0.969089 12.2458L0.839608 12.3216H0.839608L0.969089 12.2458ZM1.35874 12.629L1.2852 12.7597L1.35874 12.629ZM7.10508 15.8613L7.03154 15.992H7.03154L7.10508 15.8613ZM8.12951 15.8613L8.20305 15.992H8.20305L8.12951 15.8613ZM13.8758 12.629L13.8023 12.4983L13.8758 12.629ZM14.2655 12.2458L14.395 12.3216L14.2655 12.2458ZM14.2655 4.74964L14.136 4.82537L14.2655 4.74964ZM13.8758 4.36649L13.8023 4.49723V4.49723L13.8758 4.36649ZM8.12951 1.13418L8.05597 1.26491V1.26491L8.12951 1.13418ZM7.61729 2.04479L7.69083 1.91405L7.61729 1.87269L7.54376 1.91405L7.61729 2.04479ZM5.47089 3.25214L5.39735 3.12141L5.15913 3.2554L5.4001 3.38439L5.47089 3.25214ZM12.8185 4.97044L12.8927 5.10079L13.123 4.96964L12.892 4.83971L12.8185 4.97044ZM10.8136 6.11208L10.7428 6.24433L10.8158 6.28342L10.8878 6.24243L10.8136 6.11208ZM13.3636 5.86224H13.5136V5.60423L13.2894 5.73188L13.3636 5.86224ZM11.3406 7.01398L11.2664 6.88363L11.1906 6.92678V7.01398H11.3406ZM13.3636 11.7184L13.4372 11.8491L13.5136 11.8061V11.7184H13.3636ZM7.93888 14.7698L7.78889 14.7684L7.78654 15.0276L8.01242 14.9005L7.93888 14.7698ZM7.99175 8.92059L7.91754 8.79023L7.84254 8.83293L7.84176 8.91923L7.99175 8.92059ZM10.2958 7.60881H10.4458V7.3508L10.2216 7.47845L10.2958 7.60881ZM10.2958 10.6206H10.1458V10.7706H10.2958V10.6206ZM11.3406 10.6206V10.7706H11.4906V10.6206H11.3406ZM7.05633 8.76036L7.20632 8.76171L7.20714 8.67119L7.12743 8.62828L7.05633 8.76036ZM1.87096 5.96887L1.94206 5.83679L1.72096 5.71776V5.96887H1.87096ZM1.87096 11.7184H1.72096V11.8061L1.79742 11.8491L1.87096 11.7184ZM7.00349 14.6054L6.92996 14.7362L7.15119 14.8606L7.15349 14.6068L7.00349 14.6054ZM2.32147 5.02369L2.24793 4.89295L2.01004 5.02676L2.25053 5.15585L2.32147 5.02369ZM7.67671 7.89832L7.60577 8.03048L7.67886 8.06971L7.75094 8.02867L7.67671 7.89832ZM4.48541 3.80648L4.55785 3.67513L4.48469 3.63478L4.41187 3.67574L4.48541 3.80648ZM9.75681 6.71384L9.83104 6.84419L10.0636 6.71175L9.82926 6.58249L9.75681 6.71384ZM7.17862 1.26491C7.31255 1.18958 7.46363 1.15 7.61729 1.15V0.85C7.41211 0.85 7.21037 0.902844 7.03154 1.00344L7.17862 1.26491ZM1.43228 4.49723L7.17862 1.26491L7.03154 1.00344L1.2852 4.23575L1.43228 4.49723ZM1.09857 4.82537C1.17872 4.68832 1.2939 4.57506 1.43228 4.49723L1.2852 4.23575C1.10043 4.33969 0.946635 4.49092 0.839608 4.67392L1.09857 4.82537ZM0.976172 5.2771C0.976172 5.11833 1.01842 4.96242 1.09857 4.82537L0.839608 4.67392C0.73258 4.85692 0.676172 5.0651 0.676172 5.2771H0.976172ZM0.976172 11.7184V5.2771H0.676172V11.7184H0.976172ZM1.09857 12.1701C1.01842 12.0331 0.976172 11.8771 0.976172 11.7184H0.676172C0.676172 11.9304 0.73258 12.1386 0.839608 12.3216L1.09857 12.1701ZM1.43228 12.4983C1.2939 12.4204 1.17872 12.3072 1.09857 12.1701L0.839608 12.3216C0.946635 12.5046 1.10043 12.6558 1.2852 12.7597L1.43228 12.4983ZM7.17862 15.7306L1.43228 12.4983L1.2852 12.7597L7.03154 15.992L7.17862 15.7306ZM7.61729 15.8455C7.46363 15.8455 7.31255 15.8059 7.17861 15.7306L7.03154 15.992C7.21038 16.0926 7.41211 16.1455 7.61729 16.1455V15.8455ZM8.05597 15.7306C7.92204 15.8059 7.77096 15.8455 7.61729 15.8455V16.1455C7.82248 16.1455 8.02421 16.0926 8.20305 15.992L8.05597 15.7306ZM13.8023 12.4983L8.05597 15.7306L8.20305 15.992L13.9494 12.7597L13.8023 12.4983ZM14.136 12.1701C14.0559 12.3072 13.9407 12.4204 13.8023 12.4983L13.9494 12.7597C14.1342 12.6558 14.288 12.5046 14.395 12.3216L14.136 12.1701ZM14.2584 11.7184C14.2584 11.8771 14.2162 12.0331 14.136 12.1701L14.395 12.3216C14.502 12.1386 14.5584 11.9304 14.5584 11.7184H14.2584ZM14.2584 5.2771V11.7184H14.5584V5.2771H14.2584ZM14.136 4.82537C14.2162 4.96242 14.2584 5.11833 14.2584 5.2771H14.5584C14.5584 5.0651 14.502 4.85692 14.395 4.67392L14.136 4.82537ZM13.8023 4.49723C13.9407 4.57506 14.0559 4.68832 14.136 4.82537L14.395 4.67392C14.288 4.49092 14.1342 4.33969 13.9494 4.23575L13.8023 4.49723ZM8.05597 1.26491L13.8023 4.49723L13.9494 4.23575L8.20305 1.00344L8.05597 1.26491ZM7.61729 1.15C7.77096 1.15 7.92204 1.18958 8.05597 1.26491L8.20305 1.00344C8.02422 0.902844 7.82248 0.85 7.61729 0.85V1.15ZM7.54376 1.91405L5.39735 3.12141L5.54443 3.38288L7.69083 2.17552L7.54376 1.91405ZM12.892 4.83971L7.69083 1.91405L7.54376 2.17552L12.7449 5.10118L12.892 4.83971ZM10.8878 6.24243L12.8927 5.10079L12.7442 4.84009L10.7394 5.98173L10.8878 6.24243ZM5.4001 3.38439L10.7428 6.24433L10.8844 5.97984L5.54168 3.1199L5.4001 3.38439ZM13.2894 5.73188L11.2664 6.88363L11.4148 7.14434L13.4378 5.99259L13.2894 5.73188ZM13.5136 11.7184V5.86224H13.2136V11.7184H13.5136ZM8.01242 14.9005L13.4372 11.8491L13.2901 11.5876L7.86534 14.6391L8.01242 14.9005ZM7.84176 8.91923L7.78889 14.7684L8.08887 14.7712L8.14175 8.92194L7.84176 8.91923ZM10.2216 7.47845L7.91754 8.79023L8.06597 9.05094L10.3701 7.73916L10.2216 7.47845ZM10.4458 10.6206V7.60881H10.1458V10.6206H10.4458ZM11.3406 10.4706H10.2958V10.7706H11.3406V10.4706ZM11.1906 7.01398V10.6206H11.4906V7.01398H11.1906ZM7.12743 8.62828L1.94206 5.83679L1.79986 6.10094L6.98523 8.89244L7.12743 8.62828ZM1.72096 5.96887V11.7184H2.02096V5.96887H1.72096ZM1.79742 11.8491L6.92996 14.7362L7.07703 14.4747L1.9445 11.5876L1.79742 11.8491ZM7.15349 14.6068L7.20632 8.76171L6.90633 8.759L6.8535 14.6041L7.15349 14.6068ZM2.25053 5.15585L7.60577 8.03048L7.74766 7.76615L2.39241 4.89153L2.25053 5.15585ZM4.41187 3.67574L2.24793 4.89295L2.39501 5.15443L4.55895 3.93721L4.41187 3.67574ZM9.82926 6.58249L4.55785 3.67513L4.41296 3.93782L9.68437 6.84519L9.82926 6.58249ZM7.75094 8.02867L9.83104 6.84419L9.68259 6.58349L7.60249 7.76797L7.75094 8.02867Z" fill="#20FF5E"/>
+                                </svg>                                                                                                            
+                                Отправлен
+                            </p>
+                        </div>
+                        <div>
+                            <span>Способ оплаты</span>
+                            <p>
+                                <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00409 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.00409 10.6315Z" fill="#20FF5E"/>
+                                </svg>                                                                                                           
+                                Оплачен картой
+                            </p>
+                        </div>
+                    </div>
+                    <div class="order__address">
+                        <span>Адрес доставки</span>
+                        <p>110000, Россия, г. Москва, ул. Тверская-Ямская, д. 1, кв. 100</p>
+                    </div>
+                    <div class="order__address">
+                        <span>Способ доставки</span>
+                        <p>Курьером</p>
+                    </div>
+                    <button class="order__button order__button_first dark-btn">Отследить заказ</button>
+                    <button class="order__button gray-btn">Отменить заказ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="success">
+        <div class="success-modal">
+            <button class="success-modal__close" data-close="close">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77808 9.19238L0 16.9706L1.41431 18.3848L9.19238 10.6067L16.9705 18.3848L18.3848 16.9706L10.6067 9.19238L18.3848 1.41418L16.9705 0L9.19238 7.7782L1.41406 0L0 1.41418L7.77808 9.19238Z" fill="black"/>
+                </svg>                    
+            </button>
+            <div class="success-modal__wrapper">
+                <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00409 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.00409 10.6315Z" fill="#20FF5E"/>
+                </svg>
+                <p>Сообщение со ссылкой для добавление карты отправлено на номер телефона, прикрепленный к этому аккаунту</p>  
+            </div>              
+        </div>
+    </div>
+    <div class="overlay" id="subscribe">
+        <div class="success-modal">
+            <button class="success-modal__close" data-close="close">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77808 9.19238L0 16.9706L1.41431 18.3848L9.19238 10.6067L16.9705 18.3848L18.3848 16.9706L10.6067 9.19238L18.3848 1.41418L16.9705 0L9.19238 7.7782L1.41406 0L0 1.41418L7.77808 9.19238Z" fill="black"/>
+                </svg>                    
+            </button>
+            <div class="success-modal__wrapper">
+                <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00409 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.00409 10.6315Z" fill="#20FF5E"/>
+                </svg>
+                <p>Спасибо за подписку</p>  
+            </div>              
+        </div>
+    </div>
+    <div class="overlay" id="saveData">
+        <div class="save-modal">
+            <button class="success-modal__close" data-close="close">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77808 9.19238L0 16.9706L1.41431 18.3848L9.19238 10.6067L16.9705 18.3848L18.3848 16.9706L10.6067 9.19238L18.3848 1.41418L16.9705 0L9.19238 7.7782L1.41406 0L0 1.41418L7.77808 9.19238Z" fill="black"/>
+                </svg>                    
+            </button>
+            <div class="save-modal__wrapper">
+                <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00409 10.6315L8.00412 10.6315L6.3685 12.2672L0 5.89865L1.63562 4.26304L6.36848 8.9959L15.3644 0L17 1.63562L8.00409 10.6315Z" fill="#20FF5E"/>
+                </svg>
+                <p>Данные успешно сохранены</p>  
+            </div>              
+        </div>
+    </div>
+    <script src="js/app.min.js"></script>
+</body>
+</html>
