@@ -219,7 +219,14 @@ button {
 .header__top ul {
   display: flex;
   align-items: center;
-  gap: 22px;
+}
+
+.header__top ul li {
+  padding: 0px 11px;
+}
+
+.header__top ul li a {
+  display: flex;
 }
 
 .header__burger {
@@ -408,6 +415,177 @@ button {
   font-size: 10.8px;
   line-height: 30px;
   color: #333333;
+}
+
+.cart {
+  padding: 45px 30px 45px 30px;
+  box-sizing: border-box;
+  width: 350px;
+  position: absolute;
+  right: 0;
+  display: none;
+  top: 100%;
+  background: #fff;
+  box-shadow: 0px 4px 56px rgba(0, 0, 0, 0.15);
+}
+
+.cart-modal {
+  padding: 55px 30px 45px 30px;
+  box-sizing: border-box;
+  max-width: 350px;
+  width: 100%;
+  display: block;
+  background: #fff;
+  box-shadow: 0px 4px 56px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.clue-menu__account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 17px;
+}
+
+.clue-menu__account div {
+  display: flex;
+  flex-direction: column;
+}
+
+.clue-menu__account div p {
+  font-weight: 600;
+  font-size: 13.5px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.clue-menu__account div span {
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 16px;
+  color: #808080 !important;
+}
+
+.clue-menu__cart {
+  display: flex;
+  font-weight: 600;
+  font-size: 13.5px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 25px;
+  transition: 0.3s all;
+}
+
+.clue-menu__cart:hover {
+  opacity: 0.7;
+}
+
+.clue-menu__favorites {
+  display: flex;
+  font-weight: 600;
+  font-size: 13.5px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 25px;
+  transition: 0.3s all;
+}
+
+.clue-menu__favorites:hover {
+  opacity: 0.7;
+}
+
+.clue-menu__bonus {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.clue-menu__bonus p {
+  display: flex;
+  font-weight: 600;
+  font-size: 13.5px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.clue-menu__bonus span {
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 16px;
+  color: #808080;
+  display: block;
+}
+
+.clue-menu__bonus span:last-of-type {
+  font-size: 10px;
+  line-height: 12px;
+  color: #B6B6B6;
+  margin-top: 5px;
+}
+
+.clue-menu__exit {
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 16px;
+  color: #E90000;
+}
+
+.clue-favorites__back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  padding: 0;
+  width: 15px !important;
+  height: 15px;
+  transition: 0.3s all;
+  margin-bottom: 20px;
+}
+
+.clue-favorites__back:hover {
+  opacity: 0.7;
+}
+
+.clue-favorites__back svg {
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.clue-cart__back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  padding: 0;
+  width: 15px !important;
+  height: 15px;
+  transition: 0.3s all;
+  margin-bottom: 20px;
+}
+
+.clue-cart__back:hover {
+  opacity: 0.7;
+}
+
+.clue-cart__back svg {
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hover-header {
+  position: relative;
+}
+
+.hover-header:hover > .cart {
+  display: block;
 }
 
 .account-menu {
@@ -810,6 +988,11 @@ button {
   background: transparent;
   border: none;
   padding: 0;
+}
+
+.add__close_favorites {
+  top: 10px;
+  right: 10px;
 }
 
 .add__title {
@@ -1690,6 +1873,18 @@ button {
   color: #fff;
 }
 
+.personal__like svg:last-of-type {
+  display: none;
+}
+
+.personal__like_dislike svg:last-of-type {
+  display: flex;
+}
+
+.personal__like_dislike svg:first-of-type {
+  display: none;
+}
+
 .personal .swiper-favorites {
   width: 100%;
 }
@@ -2150,6 +2345,10 @@ button {
   .menu {
     display: block;
   }
+
+  .cart {
+    display: none !important;
+  }
 }
 
 @media (max-width: 992px) {
@@ -2323,6 +2522,11 @@ button {
   .add__close {
     top: 40px;
     right: 15px;
+  }
+
+  .add__close_favorites {
+    top: 10px;
+    right: 10px;
   }
 
   .add__title {
@@ -2535,6 +2739,12 @@ button {
 
   .brand__img {
     justify-content: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .cart-modal {
+    padding: 55px 15px 45px 15px;
   }
 }
 

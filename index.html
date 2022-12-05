@@ -52,19 +52,279 @@
                         </svg>                        
                     </a>
                 </li>
-                <li>
+                <li class="hover-header">
                     <a href="#" class="open-cart">
                         <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M4.6998 5.9998C4.6998 3.73906 6.94777 1.6998 9.9998 1.6998C13.0518 1.6998 15.2998 3.73906 15.2998 5.9998H16.6998C16.6998 2.7377 13.5752 0.299805 9.9998 0.299805C6.42442 0.299805 3.2998 2.7377 3.2998 5.9998H4.6998ZM1.4 22.6V7.4H18.6V22.6H1.4ZM0 7C0 6.44772 0.447715 6 1 6H19C19.5523 6 20 6.44772 20 7V23C20 23.5523 19.5523 24 19 24H1C0.447716 24 0 23.5523 0 23V7Z" fill="black"/>
-                        </svg>                            
+                        </svg>
                     </a>
+                    <div class="cart">
+                        <div>
+                            <div class="account-cart__top">
+                                <div>
+                                    <p>Корзина</p>
+                                    <span>2 товара</span>
+                                </div>
+                                <a href="#">
+                                    <svg width="15" class="account-cart__trash" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_8_4006)">
+                                        <path d="M9.32628 0H5.67372V1.97202H1.05908V5.26049H1.91801L2.87818 15.426H12.1218L13.082 5.26049H13.9409V1.97202H9.32628V0ZM6.55263 0.903865H8.44737V1.97202H6.55263V0.903865ZM11.3242 14.5221H3.67585L2.80104 5.26049H12.1989L11.3242 14.5221ZM13.062 2.87589V4.35663H1.93799V2.87589H13.062Z" fill="#808080"/>
+                                        <path d="M7.93945 7.02002H7.06055V12.7647H7.93945V7.02002Z" fill="#808080"/>
+                                        <path d="M9.41066 7.02002L9.14893 12.7646H10.0288L10.2905 7.02002H9.41066Z" fill="#808080"/>
+                                        <path d="M5.5891 7.02002H4.70923L4.97097 12.7646H5.85084L5.5891 7.02002Z" fill="#808080"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_8_4006">
+                                        <rect width="15" height="15.426" fill="white"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>                    
+                            </div>
+                            <div class="account-cart__product">
+                                <div class="account-cart__img">
+                                    <picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.jpg" alt="product"></picture>
+                                </div>
+                                <div class="account-cart__wr">
+                                    <p class="account-cart__name">And Wander</p>
+                                    <span class="account-cart__size">
+                                        Толстовка High loft fleece jacket<br>
+                                        Размер: L
+                                    </span>
+                                    <div class="account-cart__count">
+                                        <div>
+                                            <button data-counter="-">-</button>
+                                            <span data-counter="sum">1</span>
+                                            <button data-counter="+">+</button>
+                                        </div>
+                                        <p>26 990 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-cart__product">
+                                <div class="account-cart__img">
+                                    <picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.jpg" alt="product"></picture>
+                                </div>
+                                <div class="account-cart__wr">
+                                    <p class="account-cart__name">And Wander</p>
+                                    <span class="account-cart__size">
+                                        Толстовка High loft fleece jacket<br>
+                                        Размер: L
+                                    </span>
+                                    <div class="account-cart__count">
+                                        <div>
+                                            <button data-counter="-">-</button>
+                                            <span data-counter="sum">1</span>
+                                            <button data-counter="+">+</button>
+                                        </div>
+                                        <p>26 990 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-cart__sum">
+                                <p>Итого</p>
+                                <span>35 990 ₽</span>
+                            </div>
+                            <button class="dark-btn width-1-1">Оформить заказ ></button>
+                        </div>
+                    </div>
                 </li>
-                <li>
+                <li class="hover-header js-hover">
                     <a href="#">
                         <svg width="20" height="23" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M14.6 6C14.6 8.54051 12.5405 10.6 10 10.6C7.45949 10.6 5.4 8.54051 5.4 6C5.4 3.45949 7.45949 1.4 10 1.4C12.5405 1.4 14.6 3.45949 14.6 6ZM16 6C16 9.31371 13.3137 12 10 12C6.68629 12 4 9.31371 4 6C4 2.68629 6.68629 0 10 0C13.3137 0 16 2.68629 16 6ZM1.4 21C1.4 17.9072 3.90721 15.4 7 15.4H13C16.0928 15.4 18.6 17.9072 18.6 21V21.6H1.4V21ZM0 21C0 17.134 3.13401 14 7 14H13C16.866 14 20 17.134 20 21V21.6V23H18.6H1.4H0V21.6V21Z" fill="black"/>
                         </svg>
                     </a>
+                    <div class="cart">
+                        <div class="clue-menu">
+                            <div class="clue-menu__account"> 
+                                <div>
+                                    <p>Иван Иванов</p>
+                                    <span>+7 (900) 123 45 67</span>
+                                </div>              
+                            </div>
+                            <a href="#" class="clue-menu__cart">Заказы</a>
+                            <a href="#" class="clue-menu__favorites">Избранное</a>
+                            <div class="clue-menu__bonus">
+                                <p>Бонусная карта</p>
+                                <span>Баланс: 1000 бонусов</span>
+                                <span>Скидка 5%</span>
+                            </div>
+                            <a href="#" class="clue-menu__exit">Выйти</a>
+                        </div>
+                        <div class="clue-favorites" hidden>
+                            <button class="clue-favorites__back">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="306px" height="306px" viewBox="0 0 306 306" style="enable-background:new 0 0 306 306;" xml:space="preserve">
+                                    <g id="chevron-left">
+                                        <polygon points="247.35,35.7 211.65,0 58.65,153 211.65,306 247.35,270.3 130.05,153 		"/>
+                                    </g>
+                                </svg>
+                            </button>
+                            <div class="account-cart__top">
+                                <div>
+                                    <p>Избранное</p>
+                                    <span>3 товара</span>
+                                </div>
+                                <a href="#">
+                                    <svg width="15" class="account-cart__trash" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_8_4006)">
+                                        <path d="M9.32628 0H5.67372V1.97202H1.05908V5.26049H1.91801L2.87818 15.426H12.1218L13.082 5.26049H13.9409V1.97202H9.32628V0ZM6.55263 0.903865H8.44737V1.97202H6.55263V0.903865ZM11.3242 14.5221H3.67585L2.80104 5.26049H12.1989L11.3242 14.5221ZM13.062 2.87589V4.35663H1.93799V2.87589H13.062Z" fill="#808080"/>
+                                        <path d="M7.93945 7.02002H7.06055V12.7647H7.93945V7.02002Z" fill="#808080"/>
+                                        <path d="M9.41066 7.02002L9.14893 12.7646H10.0288L10.2905 7.02002H9.41066Z" fill="#808080"/>
+                                        <path d="M5.5891 7.02002H4.70923L4.97097 12.7646H5.85084L5.5891 7.02002Z" fill="#808080"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_8_4006">
+                                        <rect width="15" height="15.426" fill="white"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>                    
+                            </div>
+                            <div class="account-cart__product">
+                                <div class="account-cart__img">
+                                    <picture><source srcset="./img/9.webp" type="image/webp"><img src="./img/9.jpg" alt="product"></picture>
+                                </div>
+                                <div class="account-cart__wr">
+                                    <p class="account-cart__name">And Wander</p>
+                                    <span class="account-cart__size">
+                                        Толстовка High loft fleece jacket<br>
+                                        Размер: L
+                                    </span>
+                                    <div class="account-cart__count">
+                                        <div>
+                                            <button data-counter="-">-</button>
+                                            <span data-counter="sum">1</span>
+                                            <button data-counter="+">+</button>
+                                        </div>
+                                        <p>26 990 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-cart__product">
+                                <div class="account-cart__img">
+                                    <picture><source srcset="./img/10.webp" type="image/webp"><img src="./img/10.jpg" alt="product"></picture>
+                                </div>
+                                <div class="account-cart__wr">
+                                    <p class="account-cart__name">And Wander</p>
+                                    <span class="account-cart__size">
+                                        Толстовка High loft fleece jacket<br>
+                                        Размер: L
+                                    </span>
+                                    <div class="account-cart__count">
+                                        <div>
+                                            <button data-counter="-">-</button>
+                                            <span data-counter="sum">1</span>
+                                            <button data-counter="+">+</button>
+                                        </div>
+                                        <p>26 990 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-cart__product">
+                                <div class="account-cart__img">
+                                    <picture><source srcset="./img/11.webp" type="image/webp"><img src="./img/11.jpg" alt="product"></picture>
+                                </div>
+                                <div class="account-cart__wr">
+                                    <p class="account-cart__name">And Wander</p>
+                                    <span class="account-cart__size">
+                                        Толстовка High loft fleece jacket<br>
+                                        Размер: L
+                                    </span>
+                                    <div class="account-cart__count">
+                                        <div>
+                                            <button data-counter="-">-</button>
+                                            <span data-counter="sum">1</span>
+                                            <button data-counter="+">+</button>
+                                        </div>
+                                        <p>26 990 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-cart__sum" hidden>
+                                <p>Итого</p>
+                                <span>35 990 ₽</span>
+                            </div>
+                            <button class="dark-btn width-1-1">Перейти в избранное</button>
+                        </div>
+                        <div class="clue-cart" hidden>
+                            <button class="clue-cart__back">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="306px" height="306px" viewBox="0 0 306 306" style="enable-background:new 0 0 306 306;" xml:space="preserve">
+                                    <g id="chevron-left">
+                                        <polygon points="247.35,35.7 211.65,0 58.65,153 211.65,306 247.35,270.3 130.05,153 		"/>
+                                    </g>
+                                </svg>
+                            </button>
+                            <div class="account-cart__top">
+                                <div>
+                                    <p>Корзина</p>
+                                    <span>2 товара</span>
+                                </div>
+                                <a href="#">
+                                    <svg width="15" class="account-cart__trash" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_8_4006)">
+                                        <path d="M9.32628 0H5.67372V1.97202H1.05908V5.26049H1.91801L2.87818 15.426H12.1218L13.082 5.26049H13.9409V1.97202H9.32628V0ZM6.55263 0.903865H8.44737V1.97202H6.55263V0.903865ZM11.3242 14.5221H3.67585L2.80104 5.26049H12.1989L11.3242 14.5221ZM13.062 2.87589V4.35663H1.93799V2.87589H13.062Z" fill="#808080"/>
+                                        <path d="M7.93945 7.02002H7.06055V12.7647H7.93945V7.02002Z" fill="#808080"/>
+                                        <path d="M9.41066 7.02002L9.14893 12.7646H10.0288L10.2905 7.02002H9.41066Z" fill="#808080"/>
+                                        <path d="M5.5891 7.02002H4.70923L4.97097 12.7646H5.85084L5.5891 7.02002Z" fill="#808080"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_8_4006">
+                                        <rect width="15" height="15.426" fill="white"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>                    
+                            </div>
+                            <div class="account-cart__product">
+                                <div class="account-cart__img">
+                                    <picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.jpg" alt="product"></picture>
+                                </div>
+                                <div class="account-cart__wr">
+                                    <p class="account-cart__name">And Wander</p>
+                                    <span class="account-cart__size">
+                                        Толстовка High loft fleece jacket<br>
+                                        Размер: L
+                                    </span>
+                                    <div class="account-cart__count">
+                                        <div>
+                                            <button data-counter="-">-</button>
+                                            <span data-counter="sum">1</span>
+                                            <button data-counter="+">+</button>
+                                        </div>
+                                        <p>26 990 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-cart__product">
+                                <div class="account-cart__img">
+                                    <picture><source srcset="./img/2.webp" type="image/webp"><img src="./img/2.jpg" alt="product"></picture>
+                                </div>
+                                <div class="account-cart__wr">
+                                    <p class="account-cart__name">And Wander</p>
+                                    <span class="account-cart__size">
+                                        Толстовка High loft fleece jacket<br>
+                                        Размер: L
+                                    </span>
+                                    <div class="account-cart__count">
+                                        <div>
+                                            <button data-counter="-">-</button>
+                                            <span data-counter="sum">1</span>
+                                            <button data-counter="+">+</button>
+                                        </div>
+                                        <p>26 990 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-cart__sum">
+                                <p>Итого</p>
+                                <span>35 990 ₽</span>
+                            </div>
+                            <button class="dark-btn width-1-1">Оформить заказ ></button>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -352,10 +612,13 @@
                                     <div class="personal__liked">
                                         <div class="personal__liked-img">
                                             <picture><source srcset="./img/3.webp" type="image/webp"><img src="./img/3.jpg" alt="product"></picture>
-                                            <a href="#">
+                                            <a href="#" class="personal__like">
                                                 <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M14.5712 1.3421C12.774 -0.345817 9.91808 -0.441078 8.0004 1.05334C6.08271 -0.441078 3.22678 -0.345817 1.42955 1.3421C0.507157 2.20839 0 3.36046 0 4.58695C0 5.81345 0.507157 6.96552 1.42955 7.8318L8.0004 14L14.5712 7.82883C16.4763 6.03969 16.4763 3.13124 14.5712 1.3421Z" fill="#010002"/>
-                                                </svg>                                                    
+                                                </svg>  
+                                                <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.69306 1.44773L8.0004 1.68723L8.30774 1.44773C10.0348 0.10188 12.6147 0.190503 14.2289 1.70657C15.9237 3.29822 15.9237 5.87271 14.2289 7.46436L8.00031 13.3141L1.77184 7.46734C1.77181 7.46731 1.77178 7.46729 1.77176 7.46726C0.946569 6.69222 0.5 5.67066 0.5 4.58695C0.5 3.50321 0.946601 2.48161 1.77184 1.70657C3.38609 0.190503 5.96602 0.10188 7.69306 1.44773Z" fill="white" stroke="#010002"/>
+                                                </svg>                                                  
                                             </a>
                                         </div>
                                         <div class="personal__liked-name">
@@ -374,10 +637,13 @@
                                     <div class="personal__liked">
                                         <div class="personal__liked-img">
                                             <picture><source srcset="./img/4.webp" type="image/webp"><img src="./img/4.jpg" alt="product"></picture>
-                                            <a href="#">
+                                            <a href="#" class="personal__like">
                                                 <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M14.5712 1.3421C12.774 -0.345817 9.91808 -0.441078 8.0004 1.05334C6.08271 -0.441078 3.22678 -0.345817 1.42955 1.3421C0.507157 2.20839 0 3.36046 0 4.58695C0 5.81345 0.507157 6.96552 1.42955 7.8318L8.0004 14L14.5712 7.82883C16.4763 6.03969 16.4763 3.13124 14.5712 1.3421Z" fill="#010002"/>
-                                                </svg>                                                    
+                                                </svg>    
+                                                <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.69306 1.44773L8.0004 1.68723L8.30774 1.44773C10.0348 0.10188 12.6147 0.190503 14.2289 1.70657C15.9237 3.29822 15.9237 5.87271 14.2289 7.46436L8.00031 13.3141L1.77184 7.46734C1.77181 7.46731 1.77178 7.46729 1.77176 7.46726C0.946569 6.69222 0.5 5.67066 0.5 4.58695C0.5 3.50321 0.946601 2.48161 1.77184 1.70657C3.38609 0.190503 5.96602 0.10188 7.69306 1.44773Z" fill="white" stroke="#010002"/>
+                                                </svg>                                                
                                             </a>
                                         </div>
                                         <div class="personal__liked-name">
@@ -397,10 +663,13 @@
                                     <div class="personal__liked">
                                         <div class="personal__liked-img">
                                             <picture><source srcset="./img/5.webp" type="image/webp"><img src="./img/5.jpg" alt="product"></picture>
-                                            <a href="#">
+                                            <a href="#" class="personal__like">
                                                 <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M14.5712 1.3421C12.774 -0.345817 9.91808 -0.441078 8.0004 1.05334C6.08271 -0.441078 3.22678 -0.345817 1.42955 1.3421C0.507157 2.20839 0 3.36046 0 4.58695C0 5.81345 0.507157 6.96552 1.42955 7.8318L8.0004 14L14.5712 7.82883C16.4763 6.03969 16.4763 3.13124 14.5712 1.3421Z" fill="#010002"/>
-                                                </svg>                                                    
+                                                </svg>        
+                                                <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.69306 1.44773L8.0004 1.68723L8.30774 1.44773C10.0348 0.10188 12.6147 0.190503 14.2289 1.70657C15.9237 3.29822 15.9237 5.87271 14.2289 7.46436L8.00031 13.3141L1.77184 7.46734C1.77181 7.46731 1.77178 7.46729 1.77176 7.46726C0.946569 6.69222 0.5 5.67066 0.5 4.58695C0.5 3.50321 0.946601 2.48161 1.77184 1.70657C3.38609 0.190503 5.96602 0.10188 7.69306 1.44773Z" fill="white" stroke="#010002"/>
+                                                </svg>                                            
                                             </a>
                                         </div>
                                         <div class="personal__liked-name">
@@ -419,10 +688,13 @@
                                     <div class="personal__liked">
                                         <div class="personal__liked-img">
                                             <picture><source srcset="./img/3.webp" type="image/webp"><img src="./img/3.jpg" alt="product"></picture>
-                                            <a href="#">
+                                            <a href="#" class="personal__like">
                                                 <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M14.5712 1.3421C12.774 -0.345817 9.91808 -0.441078 8.0004 1.05334C6.08271 -0.441078 3.22678 -0.345817 1.42955 1.3421C0.507157 2.20839 0 3.36046 0 4.58695C0 5.81345 0.507157 6.96552 1.42955 7.8318L8.0004 14L14.5712 7.82883C16.4763 6.03969 16.4763 3.13124 14.5712 1.3421Z" fill="#010002"/>
-                                                </svg>                                                    
+                                                </svg>
+                                                <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.69306 1.44773L8.0004 1.68723L8.30774 1.44773C10.0348 0.10188 12.6147 0.190503 14.2289 1.70657C15.9237 3.29822 15.9237 5.87271 14.2289 7.46436L8.00031 13.3141L1.77184 7.46734C1.77181 7.46731 1.77178 7.46729 1.77176 7.46726C0.946569 6.69222 0.5 5.67066 0.5 4.58695C0.5 3.50321 0.946601 2.48161 1.77184 1.70657C3.38609 0.190503 5.96602 0.10188 7.69306 1.44773Z" fill="white" stroke="#010002"/>
+                                                </svg>
                                             </a>
                                         </div>
                                         <div class="personal__liked-name">
@@ -441,7 +713,7 @@
                             
                         </div>
                         <div class="swiper-scrollbar favorites-scrollbar"></div>
-                        <button class="dark-btn">Смотреть все</button>
+                        <button class="dark-btn" data-toggle="#favorites">Смотреть все</button>
                     </div>
                     <div class="personal__right">
                         <ul class="static" visible="true">
@@ -1331,6 +1603,103 @@
                 </svg>
                 <p>Данные успешно сохранены</p>  
             </div>              
+        </div>
+    </div>
+    <div class="overlay" id="favorites">
+        <div class="cart-modal">
+            <button class="add__close add__close_favorites">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77808 9.19238L0 16.9706L1.41431 18.3848L9.19238 10.6067L16.9705 18.3848L18.3848 16.9706L10.6067 9.19238L18.3848 1.41418L16.9705 0L9.19238 7.7782L1.41406 0L0 1.41418L7.77808 9.19238Z" fill="black"/>
+                </svg>                    
+            </button>
+            <div>
+                <div class="account-cart__top">
+                    <div>
+                        <p>Избранное</p>
+                        <span>3 товара</span>
+                    </div>
+                    <a href="#">
+                        <svg width="15" class="account-cart__trash" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_8_4006)">
+                            <path d="M9.32628 0H5.67372V1.97202H1.05908V5.26049H1.91801L2.87818 15.426H12.1218L13.082 5.26049H13.9409V1.97202H9.32628V0ZM6.55263 0.903865H8.44737V1.97202H6.55263V0.903865ZM11.3242 14.5221H3.67585L2.80104 5.26049H12.1989L11.3242 14.5221ZM13.062 2.87589V4.35663H1.93799V2.87589H13.062Z" fill="#808080"/>
+                            <path d="M7.93945 7.02002H7.06055V12.7647H7.93945V7.02002Z" fill="#808080"/>
+                            <path d="M9.41066 7.02002L9.14893 12.7646H10.0288L10.2905 7.02002H9.41066Z" fill="#808080"/>
+                            <path d="M5.5891 7.02002H4.70923L4.97097 12.7646H5.85084L5.5891 7.02002Z" fill="#808080"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_8_4006">
+                            <rect width="15" height="15.426" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                    </a>                    
+                </div>
+                <div class="account-cart__product">
+                    <div class="account-cart__img">
+                        <picture><source srcset="./img/9.webp" type="image/webp"><img src="./img/9.jpg" alt="product"></picture>
+                    </div>
+                    <div class="account-cart__wr">
+                        <p class="account-cart__name">And Wander</p>
+                        <span class="account-cart__size">
+                            Толстовка High loft fleece jacket<br>
+                            Размер: L
+                        </span>
+                        <div class="account-cart__count">
+                            <div>
+                                <button data-counter="-">-</button>
+                                <span data-counter="sum">1</span>
+                                <button data-counter="+">+</button>
+                            </div>
+                            <p>26 990 ₽</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="account-cart__product">
+                    <div class="account-cart__img">
+                        <picture><source srcset="./img/10.webp" type="image/webp"><img src="./img/10.jpg" alt="product"></picture>
+                    </div>
+                    <div class="account-cart__wr">
+                        <p class="account-cart__name">And Wander</p>
+                        <span class="account-cart__size">
+                            Толстовка High loft fleece jacket<br>
+                            Размер: L
+                        </span>
+                        <div class="account-cart__count">
+                            <div>
+                                <button data-counter="-">-</button>
+                                <span data-counter="sum">1</span>
+                                <button data-counter="+">+</button>
+                            </div>
+                            <p>26 990 ₽</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="account-cart__product">
+                    <div class="account-cart__img">
+                        <picture><source srcset="./img/11.webp" type="image/webp"><img src="./img/11.jpg" alt="product"></picture>
+                    </div>
+                    <div class="account-cart__wr">
+                        <p class="account-cart__name">And Wander</p>
+                        <span class="account-cart__size">
+                            Толстовка High loft fleece jacket<br>
+                            Размер: L
+                        </span>
+                        <div class="account-cart__count">
+                            <div>
+                                <button data-counter="-">-</button>
+                                <span data-counter="sum">1</span>
+                                <button data-counter="+">+</button>
+                            </div>
+                            <p>26 990 ₽</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="account-cart__sum" hidden>
+                    <p>Итого</p>
+                    <span>35 990 ₽</span>
+                </div>
+                <button class="dark-btn width-1-1">Перейти в избранное</button>
+            </div>
         </div>
     </div>
     <script src="js/app.min.js"></script>
