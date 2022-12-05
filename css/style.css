@@ -351,6 +351,11 @@ button {
   margin-bottom: 20px;
 }
 
+.menu__account div {
+  display: flex;
+  flex-direction: column;
+}
+
 .menu__account div p {
   font-weight: 600;
   font-size: 13.5px;
@@ -359,11 +364,11 @@ button {
   margin-bottom: 10px;
 }
 
-.menu__account div a {
+.menu__account div span {
   font-weight: 400;
   font-size: 13.5px;
   line-height: 16px;
-  color: #808080;
+  color: #808080 !important;
 }
 
 .menu__account svg {
@@ -414,7 +419,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
   top: 10px;
   left: 0px;
   border: none;
@@ -855,7 +859,7 @@ button {
 .add__input div input {
   width: 100%;
   border: 1px solid #E5E5E5;
-  padding: 0px 70px 0px 20px;
+  padding: 0px 30px 0px 20px;
   height: 56px;
   display: flex;
   align-items: center;
